@@ -11,17 +11,15 @@
             "id": "9517c16f1bc04fd8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "🤮💸Programing/🌍Languages/🔎Languages Navigation.canvas",
-                "viewState": {
-                  "x": -270.2184259374626,
-                  "y": 510.30243186684874,
-                  "zoom": -1.2000000000000006
-                }
+                "file": "Без названия 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "🔎Languages Navigation"
+              "icon": "lucide-file",
+              "title": "Без названия 1"
             }
           }
         ]
@@ -189,6 +187,8 @@
   },
   "active": "9517c16f1bc04fd8",
   "lastOpenFiles": [
+    "Без названия.md",
+    "Без названия 1.md",
     "🤮💸Programing/🌍Languages/🔎Languages Navigation.canvas",
     "тесто.md",
     "хуй",
@@ -218,7 +218,6 @@
     "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/🌐 FastAPI.md",
     "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/⚡ Asyncio.md",
     "Main/🤮💸Programing/🌍Languages/🐍Python/📁File/Работа с файлами.md",
-    "Main/🤮💸Programing/🌍Languages/🐍Python/📁File/With... As.md",
     "Main/🤮💸Programing/🔷 Arch Linux/📜 Arch Linux Setup/📋 Instructions.canvas",
     "Main/🤮💸Programing/🌍Languages/🐍Python/🧮OOP",
     "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks",
