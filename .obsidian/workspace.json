@@ -11,15 +11,17 @@
             "id": "9517c16f1bc04fd8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Без названия 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "🤮💸Programing/🌍Languages/🔎Languages Navigation.canvas",
+                "viewState": {
+                  "x": -270.2184259374626,
+                  "y": 510.30243186684874,
+                  "zoom": -1.2000000000000006
+                }
               },
-              "icon": "lucide-file",
-              "title": "Без названия 1"
+              "icon": "lucide-layout-dashboard",
+              "title": "🔎Languages Navigation"
             }
           }
         ]
@@ -185,10 +187,10 @@
       "obsidian-kanban:Создать новую доску": false
     }
   },
-  "active": "9517c16f1bc04fd8",
+  "active": "a5543a521ab36a3c",
   "lastOpenFiles": [
-    "Без названия.md",
     "Без названия 1.md",
+    "Без названия.md",
     "🤮💸Programing/🌍Languages/🔎Languages Navigation.canvas",
     "тесто.md",
     "хуй",
