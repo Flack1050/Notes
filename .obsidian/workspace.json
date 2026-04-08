@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "77440356e658ec62",
+    "type": "split",
+    "children": [
+      {
+        "id": "9bc0905d8399d5f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9517c16f1bc04fd8",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "🤮💸Programing/🌍Languages/🔎Languages Navigation.canvas",
+                "viewState": {
+                  "x": -270.2184259374626,
+                  "y": 510.30243186684874,
+                  "zoom": -1.2000000000000006
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "🔎Languages Navigation"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9dc0a3f706a62999",
+    "type": "split",
+    "children": [
+      {
+        "id": "82ac3bb6a24af23b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5543a521ab36a3c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "6803cd221ad11238",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "018ce75accce4f5d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 385.0003356933594
+  },
+  "right": {
+    "id": "669fb5c683f2b493",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4df1b42b4dc7d83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "060faac34ae2b1c8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки"
+            }
+          },
+          {
+            "id": "5d9e26561450b83a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "6aee478e9672c3b9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c276c9170b7ce82d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "ce8fab780fc233ff",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Создать новую доску": false
+    }
+  },
+  "active": "9517c16f1bc04fd8",
+  "lastOpenFiles": [
+    "🤮💸Programing/🌍Languages/🔎Languages Navigation.canvas",
+    "тесто.md",
+    "хуй",
+    "🤮💸Programing/🌍Languages/🐍Python/⚙️Code/Функции строк.md",
+    "🤮💸Programing/🌍Languages/🔎 Frameworks Navigation.canvas",
+    "🤮💸Programing/🌍Languages/🐍Python/⚙️Code/Декоратор функций.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/🤖 Aiogram/🛠️ Aiogram Middleware.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/🤖 Aiogram/🕵️ Aiogram Filters.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/🤖 Aiogram/🔄 Aiogram FSM.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/🤖 Aiogram/🏗️ Aiogram Project Architecture.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/🤖 Aiogram/⚙️ Aiogram Base.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/🖥️ PyQt6/🧩 PyQt6 Widgets.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/🖥️ PyQt6/📡 PyQt6 Signals & Slots.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/🖥️ PyQt6/📐 PyQt6 Layout System.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/🖥️ PyQt6/⚙️ PyQt6 Base.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧮OOP/Создание класса и объектов.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧮OOP/Наследование, полиморфизм и инкапсуляция.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧮OOP/Конструктор.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/🧪 SQLAlchemy.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/🤖 Telebot.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/🤖 Aiogram",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/🗄️ SQLite3.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/🖥️ PyQt6",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/📦 PyInstaller.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/🎮 PyGame.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/🌐 Flask.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/🌐 FastAPI.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/⚡ Asyncio.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/📁File/Работа с файлами.md",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/📁File/With... As.md",
+    "Main/🤮💸Programing/🔷 Arch Linux/📜 Arch Linux Setup/📋 Instructions.canvas",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧮OOP",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/📁File",
+    "Main/🤮💸Programing/🌍Languages/🐍Python/⚙️Code",
+    "Main/🤮💸Programing/🔷 Arch Linux/🗺️ Arch Linux Navigation.canvas",
+    "Main/🤮💸Programing/🔷 Arch Linux/📜 Arch Linux Setup",
+    "Main/🤮💸Programing/🔷 Arch Linux/⌨️ Arch Linux Commands",
+    "Main/🤮💸Programing/🌍Languages/🔎Languages Navigation.canvas",
+    "Main/🤮💸Programing/🌍Languages/🔎 Frameworks Navigation.canvas",
+    "Main/🤮💸Programing/🌍Languages/🐍Python",
+    "🤮Programing/🌍Languages/🔎 Frameworks Navigation.canvas",
+    "🤮💸Programing/🔷 Arch Linux/📜 Arch Linux Setup/📋 Instructions.canvas",
+    "🤮💸Programing/🔷 Arch Linux/🗺️ Arch Linux Navigation.canvas",
+    "Без названия.canvas"
+  ]
+}
