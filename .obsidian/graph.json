@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -15,31 +15,31 @@
       }
     },
     {
-      "query": "path:🤮Programing/🌍Languages/🐍Python/⚙️Code  ",
+      "query": "path:\"🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks\"  ",
       "color": {
         "a": 1,
-        "rgb": 16514816
+        "rgb": 1964544
       }
     },
     {
-      "query": "path:🤮Programing/🌍Languages/🐍Python/📁File  ",
+      "query": "path:🤮💸Programing/🌍Languages/🐍Python/⚙️Code  ",
       "color": {
         "a": 1,
-        "rgb": 16514816
+        "rgb": 15456266
       }
     },
     {
-      "query": "path:🤮Programing/🌍Languages/🐍Python/🧮OOP  ",
+      "query": "path:🤮💸Programing/🌍Languages/🐍Python/📁File  ",
       "color": {
         "a": 1,
-        "rgb": 16514816
+        "rgb": 15456266
       }
     },
     {
-      "query": "path:\"🤮Programing/🌍Languages/🐍Python/🧩 Frameworks\"  ",
+      "query": "path:🤮💸Programing/🌍Languages/🐍Python/🧮OOP  ",
       "color": {
         "a": 1,
-        "rgb": 65310
+        "rgb": 15456266
       }
     }
   ],
@@ -53,6 +53,6 @@
   "repelStrength": 16.1777777777778,
   "linkStrength": 1,
   "linkDistance": 270,
-  "scale": 0.5995837879738963,
+  "scale": 0.3050453785323537,
   "close": true
 }
