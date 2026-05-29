@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -8,38 +8,52 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"🔷 Arch Linux\"  ",
+      "query": "path:\"🤮💸Programing/🐧Linux/🔷 Arch Linux/⌨️ Arch Linux Commands\"  ",
       "color": {
         "a": 1,
-        "rgb": 1316040
+        "rgb": 3040
       }
     },
     {
-      "query": "path:🤮Programing/🌍Languages/🐍Python/⚙️Code  ",
+      "query": "path:\"🤮💸Programing/🐧Linux/🔷 Arch Linux/📜 Arch Linux Setup\"  ",
       "color": {
         "a": 1,
-        "rgb": 16514816
+        "rgb": 3040
       }
     },
     {
-      "query": "path:🤮Programing/🌍Languages/🐍Python/📁File  ",
+      "query": "path:🤮💸Programing/🐧Linux/🐋Docker  ",
       "color": {
         "a": 1,
-        "rgb": 16514816
+        "rgb": 17013
       }
     },
     {
-      "query": "path:🤮Programing/🌍Languages/🐍Python/🧮OOP  ",
+      "query": "path:🤮💸Programing/🌍Languages/🐍Python  ",
       "color": {
         "a": 1,
-        "rgb": 16514816
+        "rgb": 15779840
       }
     },
     {
-      "query": "path:\"🤮Programing/🌍Languages/🐍Python/🧩 Frameworks\"  ",
+      "query": "path:\"🤮💸Programing/🧩 Frameworks/🐍Python Frameworks\"  ",
       "color": {
         "a": 1,
-        "rgb": 65310
+        "rgb": 15779840
+      }
+    },
+    {
+      "query": "path:\"🤮💸Programing/🧩 Frameworks\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 1964544
+      }
+    },
+    {
+      "query": "path:🤮💸Programing/🌍Languages  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
       }
     }
   ],
@@ -53,6 +67,6 @@
   "repelStrength": 16.1777777777778,
   "linkStrength": 1,
   "linkDistance": 270,
-  "scale": 0.5995837879738963,
+  "scale": 0.7514342322277531,
   "close": true
 }
