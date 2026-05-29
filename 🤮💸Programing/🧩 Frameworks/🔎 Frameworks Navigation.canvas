@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{
+			"id":"d2a28d1bbb628bac",
+			"type":"text",
+			"text":"[[🐍Python Frameworks]]",
+			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
+			"x":320,
+			"y":-1760,
+			"width":260,
+			"height":100,
+			"color":"3"
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}
