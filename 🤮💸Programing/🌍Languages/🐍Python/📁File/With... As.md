@@ -1,4 +1,4 @@
-Связано с [[🔎Languages Navigation.canvas|Навигация по ЯП]]
+Связано с [[📁File]]
 ___
 *Менеджер With... As нужен для корректного отображения ошибки `FileNotFound`*
 ```python
