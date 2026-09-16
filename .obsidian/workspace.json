@@ -4,24 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9bc0905d8399d5f9",
+        "id": "46cd59e05a71401d",
         "type": "tabs",
         "children": [
           {
-            "id": "9517c16f1bc04fd8",
+            "id": "1d52b6d8b724d8bb",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "🤮💸Programing/🌍Languages/🔎 Frameworks Navigation.canvas",
-                "viewState": {
-                  "x": -230.904066988317,
-                  "y": -862.24640856487,
-                  "zoom": -0.7629450938261615
-                }
+                "file": "🤮💸Programing/🛠️DevOps DevTools/🧩Docker Compose.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "🔎 Frameworks Navigation"
+              "icon": "lucide-file",
+              "title": "🧩Docker Compose"
             }
           }
         ]
@@ -38,13 +36,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a5543a521ab36a3c",
+            "id": "e04c6e4618e2dd13",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true,
+                "autoReveal": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -199,52 +197,53 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "9517c16f1bc04fd8",
+  "active": "1d52b6d8b724d8bb",
   "lastOpenFiles": [
-    "🤮💸Programing/🌍Languages/🔎Languages Navigation.canvas",
-    "🤮💸Programing/🌍Languages/🔎 Frameworks Navigation.canvas",
-    "🤮💸Programing/🧩 Frameworks/🔎 Frameworks Navigation.canvas",
-    "🤮💸Programing/🛠️DevOps DevTools/🏗️Terraform.md",
-    "🤮💸Programing/🛠️DevOps DevTools/☸️Kubernetes.md",
-    "🤮💸Programing/🛠️DevOps DevTools/🤵Jenkins.md",
-    "🤮💸Programing/🛠️DevOps DevTools/🌿Git Workflow.md",
-    "🤮💸Programing/🛠️DevOps DevTools/🧩Docker Compose.md",
     "🤮💸Programing/🛠️DevOps DevTools/🐳Docker.md",
-    "🤮💸Programing/🛠️DevOps DevTools/⚙️Ansible.md",
-    "🤮💸Programing/🛠️DevOps DevTools/🔄CI-CD Pipelines.md",
-    "🤮💸Programing/🛠️DevOps DevTools/🗺️ DevOps MOC.md",
-    "🤮💸Programing/🐧Linux/🐋Docker/🐋Docker.md",
-    "D[[Kubernetes.md",
-    "🤮💸Programing/🐧Linux/🐋Docker/Docker compose.md",
-    "🤮💸Programing/🐧Linux/🐋Docker/Общие команды управления.md",
-    "⚙️Settings/templates/Templates.md",
-    "🤮💸Programing/🌍Languages/🐍Python/🐍Python.md",
-    "🤮💸Programing/🧩 Frameworks/🐍Python Frameworks/🤖 Aiogram/🤖 Aiogram.md",
-    "🤮💸Programing/🧩 Frameworks/🐍Python Frameworks/🤖 Aiogram/🛠️ Aiogram Middleware.md",
-    "🤮💸Programing/🧩 Frameworks/🐍Python Frameworks/🤖 Aiogram/🕵️ Aiogram Filters.md",
-    "🤮💸Programing/🧩 Frameworks/🐍Python Frameworks/🤖 Aiogram/🔄 Aiogram FSM.md",
-    "🤮💸Programing/🧩 Frameworks/🐍Python Frameworks/🤖 Aiogram/🏗️ Aiogram Project Architecture.md",
-    "🤮💸Programing/🧩 Frameworks/🐍Python Frameworks/🤖 Aiogram/⚙️ Aiogram Base.md",
-    "🤮💸Programing/🧩 Frameworks/🐍Python Frameworks/🖥️ PyQt6/🧩 PyQt6 Widgets.md",
-    "🤮💸Programing/🧩 Frameworks/🐍Python Frameworks/🖥️ PyQt6/🖥️ PyQt6.md",
-    "🤮💸Programing/🧩 Frameworks/🐍Python Frameworks/🖥️ PyQt6/📡 PyQt6 Signals & Slots.md",
-    "🤮💸Programing/🧩 Frameworks/🐍Python Frameworks/🖥️ PyQt6/📐 PyQt6 Layout System.md",
-    "🤮💸Programing/🐧Linux/🔷 Arch Linux/🗺️ Arch Linux Navigation.canvas",
-    "🤮💸Programing/🐧Linux/🔷 Arch Linux/📋 Setup Instruction.canvas",
-    "🤮💸Programing/🐧Linux/🔎Linux Navigation.canvas",
-    "🤮💸Programing/🐧Linux/🔷 Arch Linux/📜 Arch Linux Setup",
-    "🤮💸Programing/🐧Linux/🔷 Arch Linux/⌨️ Arch Linux Commands",
-    "🤮💸Programing/🧩 Frameworks/🐍Python Frameworks/🤖 Aiogram",
-    "🤮💸Programing/🧩 Frameworks/🐍Python Frameworks/🖥️ PyQt6",
-    "🤮💸Programing/🧩 Frameworks/🐍Python Frameworks",
-    "🤮💸Programing/🐧Linux/🔷 Arch Linux",
-    "🤮💸Programing/🛠️DevOps DevTools",
-    "🤮💸Programing/🧩 Frameworks",
-    "🤮💸Programing/🐧Linux",
-    "🤮💸Programing/🐧Linux/🔷 Arch Linux 1/📜 Arch Linux Setup/📋 Instructions.canvas",
+    "🤮💸Programing/🛠️DevOps DevTools/🤵Jenkins.md",
+    "❤️life/🏫school/🔳geometry/02 - 📊Основные тригонометрические тождества.md",
+    "❤️life/🏫school/🔳geometry/09 - ⭕Центральные и вписанные углы.md",
+    "❤️life/🏫school/🔳geometry/05 - 📏Теорема косинусов.md",
+    "❤️life/🏫school/🔳geometry/11 - ⬡Правильные многоугольники.md",
+    "❤️life/🏫school/🔳geometry/13 -🎯 Единичная полуокружность.md",
+    "❤️life/🏫school/🔳geometry/07 - ➡️Векторы.md",
+    "❤️life/🏫school/🔳geometry/01 - 📐Синус, косинус, тангенс острого угла.md",
+    "🤮💸Programing/🌍Languages/🐍Python/🔎 Python Navigation.canvas",
+    "🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks/🔎 Frameworks Navigation.canvas",
+    "🤮💸Programing/🌍Languages/🐍Python/📁File/Работа с файлами.md",
+    "🤮💸Programing/🌍Languages/🐍Python/🧮OOP/🧮OOP.md",
+    "🤮💸Programing/🐧Linux/🔷 Arch Linux/⌨️ Arch Linux Commands/🧠 System Concepts.md",
+    "🤮💸Programing/🐧Linux/🔷 Arch Linux/⌨️ Arch Linux Commands/🌐 Network.md",
+    "🤮💸Programing/🐧Linux/🔷 Arch Linux/⌨️ Arch Linux Commands/⚙️ System Administration.md",
+    "🤮💸Programing/🐧Linux/🔷 Arch Linux/⌨️ Arch Linux Commands/📦 Package Manager.md",
+    "🤮💸Programing/🐧Linux/🔷 Arch Linux/⌨️ Arch Linux Commands/🔐 Security.md",
+    "🤮💸Programing/🐧Linux/🔷 Arch Linux/⌨️ Arch Linux Commands/🆘 Troubleshooting.md",
     "🤮💸Programing/🐧Linux/🔷 Arch Linux 1/🗺️ Arch Linux Navigation.canvas",
-    "🤮💸Programing/🐧Linux/🔷 Arch Linux 1/📜 Arch Linux Setup",
-    "Main/🤮💸Programing/🔷 Arch Linux/📜 Arch Linux Setup/📋 Instructions.canvas",
-    "Main/🤮💸Programing/🔷 Arch Linux/🗺️ Arch Linux Navigation.canvas"
+    "🤮💸Programing/🐧Linux/🔷 Arch Linux 1",
+    "❤️life/🏫school/🔳geometry/10 - 🌀Длина окружности и площадь круга.md",
+    "❤️life/🏫school/🔳geometry/00 - 📚Оглавление.md",
+    "❤️life/🏫school/🔳geometry/03 - 📊Таблица значений 30, 45, 60.md",
+    "❤️life/🏫school/🔳geometry/12 - 🔄Движения (симметрия, поворот, перенос).md",
+    "❤️life/🏫school/🔳geometry/08 - 🗺️Метод координат.md",
+    "❤️life/🏫school/🔳geometry/06 - 🔻Площадь треугольника через синус.md",
+    "❤️life/🏫school/🔳geometry/04 - 🔺Теорема синусов.md",
+    "❤️life/🏫school/🔳geometry",
+    "❤️life/🏫school",
+    "❤️life",
+    "🤮💸Programing/🛠️DevOps DevTools/🗺️ DevOps MOC.md",
+    "🤮💸Programing/🛠️DevOps DevTools/🔎DevOps Navigation.canvas",
+    "🤮💸Programing/🛠️DevOps DevTools/⚙️Ansible.md",
+    "🤮💸Programing/🐧Linux/🔷 Arch Linux/🗺️ Arch Linux Navigation.canvas",
+    "🤮💸Programing/🐧Linux/🔎Linux Navigation.canvas",
+    "🤮💸Programing/🔎 Programing Navigation.canvas",
+    "Без названия.canvas",
+    "🤮💸Programing/🌍Languages/🔎Languages Navigation.canvas",
+    "🤮💸Programing/🌍Languages/🐍Python/🧮OOP",
+    "🤮💸Programing/🌍Languages/🐍Python/📁File",
+    "🤮💸Programing/🌍Languages/🐍Python/🧩 Frameworks",
+    "🤮💸Programing/🌍Languages/🐍Python/⚙️Code",
+    "🤮💸Programing/🌍Languages/🐍Python",
+    "🤮💸Programing/🌍Languages/🔎 Frameworks Navigation.canvas",
+    "🤮💸Programing/🐧Linux/🔷 Arch Linux/📜 Arch Linux Setup"
   ]
 }

@@ -1,85 +1,139 @@
 {
-	"nodes":[
-		{
-			"id":"860ca9e84075ee5d",
-			"type":"text",
-			"text":"🌍**Languages**",
-			"styleAttributes":{
-				"textAlign":"center",
-				"shape":"pill",
-				"border":null
-			},
-			"x":-480,
-			"y":-220,
-			"width":340,
-			"height":80
-		},
-		{
-			"id":"c2819c8b4b96da95",
-			"type":"text",
-			"text":"[[🐍Python]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-880,
-			"y":40,
-			"width":260,
-			"height":100,
-			"color":"3"
-		},
-		{
-			"id":"5f6029227f30d7e8",
-			"type":"text",
-			"text":"🐹GOlang",
-			"styleAttributes":{"shape":"parallelogram","textAlign":"center"},
-			"x":0,
-			"y":40,
-			"width":260,
-			"height":100,
-			"color":"#009dff"
-		},
-		{
-			"id":"9d401ff8ad1111f9",
-			"type":"text",
-			"text":"⚙️Code",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-1340,
-			"y":270,
-			"width":260,
-			"height":50,
-			"color":"1"
-		}
-	],
-	"edges":[
-		{
-			"id":"077d0cce96a641b8",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"860ca9e84075ee5d",
-			"fromSide":"bottom",
-			"toNode":"c2819c8b4b96da95",
-			"toSide":"top"
-		},
-		{
-			"id":"e051847a5fa4869a",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"860ca9e84075ee5d",
-			"fromSide":"bottom",
-			"toNode":"5f6029227f30d7e8",
-			"toSide":"top"
-		},
-		{
-			"id":"78821b84c3cdc966",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"c2819c8b4b96da95",
-			"fromSide":"bottom",
-			"toNode":"9d401ff8ad1111f9",
-			"toSide":"top"
-		}
-	],
-	"metadata":{
-		"version":"1.0-1.0",
-		"frontmatter":{},
-		"startNode":"921c95c51031cf4f"
-	}
+    "nodes": [
+        {
+            "id": "title",
+            "type": "text",
+            "text": "🌍**Languages**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "pill"
+            },
+            "x": -560,
+            "y": -420,
+            "width": 400,
+            "height": 100
+        },
+        {
+            "id": "n_python",
+            "type": "text",
+            "text": "[[🐍Python]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -900,
+            "y": -220,
+            "width": 300,
+            "height": 100,
+            "color": "3"
+        },
+        {
+            "id": "n_python_portal",
+            "type": "text",
+            "text": "[[🌍Languages/🐍Python/🔎 Python Navigation.canvas|🐍 Python Navigation]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "database"
+            },
+            "x": -900,
+            "y": -60,
+            "width": 300,
+            "height": 90,
+            "color": "6"
+        },
+        {
+            "id": "n_golang",
+            "type": "text",
+            "text": "🐹 Golang\n*(в планах)*",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -460,
+            "y": -220,
+            "width": 300,
+            "height": 100,
+            "color": "#009dff"
+        },
+        {
+            "id": "back",
+            "type": "text",
+            "text": "[[🔎 Programing Navigation.canvas|💻 Programing Navigation]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "database"
+            },
+            "x": -560,
+            "y": -600,
+            "width": 400,
+            "height": 90,
+            "color": "6"
+        }
+    ],
+    "edges": [
+        {
+            "id": "e_title_python",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n_python",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "3"
+        },
+        {
+            "id": "e_python_portal",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "n_python",
+            "fromSide": "bottom",
+            "toNode": "n_python_portal",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "6"
+        },
+        {
+            "id": "e_title_golang",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n_golang",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "#009dff"
+        },
+        {
+            "id": "e_back_title",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "back",
+            "fromSide": "bottom",
+            "toNode": "title",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "6"
+        }
+    ],
+    "metadata": {
+        "version": "1.0-1.0",
+        "frontmatter": {}
+    }
 }

@@ -15,31 +15,24 @@
       }
     },
     {
-      "query": "path:🤮Programing/🌍Languages/🐍Python/⚙️Code  ",
+      "query": "path:\"🛠️DevOps DevTools\"",
+      "color": {
+        "a": 1,
+        "rgb": 8141549
+      }
+    },
+    {
+      "query": "path:🤮💸Programing/🌍Languages/🐍Python  ",
       "color": {
         "a": 1,
         "rgb": 16514816
       }
     },
     {
-      "query": "path:🤮Programing/🌍Languages/🐍Python/📁File  ",
+      "query": "path:❤️life/🏫school/🔳geometry  ",
       "color": {
         "a": 1,
-        "rgb": 16514816
-      }
-    },
-    {
-      "query": "path:🤮Programing/🌍Languages/🐍Python/🧮OOP  ",
-      "color": {
-        "a": 1,
-        "rgb": 16514816
-      }
-    },
-    {
-      "query": "path:\"🤮Programing/🌍Languages/🐍Python/🧩 Frameworks\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 65310
+        "rgb": 57855
       }
     }
   ],
@@ -53,6 +46,6 @@
   "repelStrength": 16.1777777777778,
   "linkStrength": 1,
   "linkDistance": 270,
-  "scale": 0.8993756928287208,
+  "scale": 0.3491897936505972,
   "close": true
 }

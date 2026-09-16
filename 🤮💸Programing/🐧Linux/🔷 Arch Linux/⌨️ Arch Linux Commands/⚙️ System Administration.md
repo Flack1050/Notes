@@ -1,4 +1,4 @@
-Связано с [[🤮💸Programing/🐧Linux/🔷 Arch Linux 1/🗺️ Arch Linux Navigation.canvas|🗺️ Arch Linux Navigation]]
+Связано с [[🤮💸Programing/🐧Linux/🔷 Arch Linux/🗺️ Arch Linux Navigation.canvas|🗺️ Arch Linux Navigation]]
 
 ##   ⚙️ Arch System Administration
 **----------------------------------------------------------**

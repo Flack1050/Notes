@@ -1,68 +1,82 @@
 {
 	"nodes":[
 		{
-			"id":"4b70aec9e5cfab3c",
+			"id":"title",
 			"type":"text",
-			"text":"**Programs**",
-			"styleAttributes":{"shape":"predefined-process","textAlign":"center"},
-			"x":-660,
-			"y":-460,
-			"width":260,
-			"height":100,
-			"color":"1"
+			"text":"🐧**Linux**",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":-560,
+			"y":-420,
+			"width":400,
+			"height":100
 		},
 		{
-			"id":"2b9c98de09ca6949",
+			"id":"n_arch",
 			"type":"text",
-			"text":"**Distributions**",
-			"styleAttributes":{"shape":"predefined-process","textAlign":"center"},
-			"x":40,
-			"y":-460,
-			"width":260,
-			"height":100,
-			"color":"1"
-		},
-		{
-			"id":"1fdfca0c78e0cc9a",
-			"type":"text",
-			"text":"[[🤮💸Programing/🐧Linux/🔷 Arch Linux/🗺️ Arch Linux Navigation.canvas]]",
-			"styleAttributes":{"shape":"parallelogram","textAlign":"center"},
-			"x":20,
-			"y":-270,
+			"text":"[[🤮💸Programing/🐧Linux/🔷 Arch Linux/🗺️ Arch Linux Navigation.canvas|🔷 Arch Linux]]",
+			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
+			"x":-900,
+			"y":-220,
 			"width":300,
 			"height":100,
 			"color":"5"
 		},
 		{
-			"id":"ae9cc0042e04f2e0",
+			"id":"n_devops",
 			"type":"text",
-			"text":"[[🐋Docker]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-660,
-			"y":-250,
-			"width":260,
-			"height":60,
-			"color":"5"
+			"text":"[[🛠️DevOps DevTools/🔎DevOps Navigation.canvas|🛠️ DevOps Navigation]]",
+			"styleAttributes":{"textAlign":"center","shape":"database"},
+			"x":-460,
+			"y":-220,
+			"width":300,
+			"height":100,
+			"color":"6"
+		},
+		{
+			"id":"back",
+			"type":"text",
+			"text":"[[🔎 Programing Navigation.canvas|💻 Programing Navigation]]",
+			"styleAttributes":{"textAlign":"center","shape":"database"},
+			"x":-560,
+			"y":-600,
+			"width":400,
+			"height":90,
+			"color":"6"
 		}
 	],
 	"edges":[
 		{
-			"id":"d3932bd2b9f01ee6",
-			"styleAttributes":{},
+			"id":"e_title_arch",
+			"styleAttributes":{"pathfindingMethod":"direct"},
 			"toFloating":false,
-			"fromNode":"2b9c98de09ca6949",
+			"fromFloating":false,
+			"fromNode":"title",
 			"fromSide":"bottom",
-			"toNode":"1fdfca0c78e0cc9a",
-			"toSide":"top"
+			"toNode":"n_arch",
+			"toSide":"top",
+			"color":"5"
 		},
 		{
-			"id":"dcb35ae3fdd99c0f",
-			"styleAttributes":{},
+			"id":"e_title_devops",
+			"styleAttributes":{"pathfindingMethod":"direct"},
 			"toFloating":false,
-			"fromNode":"4b70aec9e5cfab3c",
+			"fromFloating":false,
+			"fromNode":"title",
 			"fromSide":"bottom",
-			"toNode":"ae9cc0042e04f2e0",
-			"toSide":"top"
+			"toNode":"n_devops",
+			"toSide":"top",
+			"color":"6"
+		},
+		{
+			"id":"e_back_title",
+			"styleAttributes":{"pathfindingMethod":"direct"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"back",
+			"fromSide":"bottom",
+			"toNode":"title",
+			"toSide":"top",
+			"color":"6"
 		}
 	],
 	"metadata":{
