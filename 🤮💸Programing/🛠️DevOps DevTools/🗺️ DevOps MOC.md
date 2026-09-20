@@ -15,6 +15,7 @@ tags: [moc, devops]
 
 ## Оркестрация
 - [[☸️Kubernetes]]
+- [[⛵Helm]]
 
 ## Инфраструктура как код
 - [[🏗️Terraform]]
@@ -41,5 +42,6 @@ tags: [moc, devops]
 4. [[⚙️Ansible]] — автоматизация конфигурации серверов
 5. [[🏗️Terraform]] — provisioning инфраструктуры
 6. [[☸️Kubernetes]] — когда Compose станет мало
+7. [[⛵Helm]] — пакует k8s-манифесты в переиспользуемые чарты
 
 #moc #devops

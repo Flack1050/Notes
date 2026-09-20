@@ -1,553 +1,727 @@
 {
-	"nodes":[
-		{
-			"id":"title",
-			"type":"text",
-			"text":"🛠️**DevOps DevTools**",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":-870,
-			"y":-700,
-			"width":400,
-			"height":100
-		},
-		{
-			"id":"back",
-			"type":"text",
-			"text":"[[🤮💸Programing]]",
-			"styleAttributes":{"textAlign":"center","shape":"database"},
-			"x":420,
-			"y":-700,
-			"width":260,
-			"height":90,
-			"color":"6"
-		},
-		{
-			"id":"h_git",
-			"type":"text",
-			"text":"🌱 **Основы**",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
-			"x":-1600,
-			"y":-480,
-			"width":320,
-			"height":90,
-			"color":"1"
-		},
-		{
-			"id":"n_git",
-			"type":"text",
-			"text":"[[🌿Git Workflow]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-1600,
-			"y":-320,
-			"width":320,
-			"height":90,
-			"color":"3"
-		},
-		{
-			"id":"h_cont",
-			"type":"text",
-			"text":"🐳 **Контейнеризация**",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
-			"x":-1220,
-			"y":-480,
-			"width":320,
-			"height":90,
-			"color":"1"
-		},
-		{
-			"id":"n_docker",
-			"type":"text",
-			"text":"[[🐳Docker]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-1220,
-			"y":-320,
-			"width":320,
-			"height":90,
-			"color":"5"
-		},
-		{
-			"id":"n_compose",
-			"type":"text",
-			"text":"[[🧩Docker Compose]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-1220,
-			"y":-170,
-			"width":320,
-			"height":90,
-			"color":"5"
-		},
-		{
-			"id":"h_cicd",
-			"type":"text",
-			"text":"🔄 **CI/CD**",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
-			"x":-840,
-			"y":-480,
-			"width":320,
-			"height":90,
-			"color":"1"
-		},
-		{
-			"id":"n_cicd",
-			"type":"text",
-			"text":"[[🔄CI-CD Pipelines]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-840,
-			"y":-320,
-			"width":320,
-			"height":90,
-			"color":"2"
-		},
-		{
-			"id":"n_jenkins",
-			"type":"text",
-			"text":"[[🤵Jenkins]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-840,
-			"y":-170,
-			"width":320,
-			"height":90,
-			"color":"2"
-		},
-		{
-			"id":"h_iac",
-			"type":"text",
-			"text":"🏗️ **IaC**",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
-			"x":-460,
-			"y":-480,
-			"width":320,
-			"height":90,
-			"color":"1"
-		},
-		{
-			"id":"n_ansible",
-			"type":"text",
-			"text":"[[⚙️Ansible]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-460,
-			"y":-320,
-			"width":320,
-			"height":90,
-			"color":"4"
-		},
-		{
-			"id":"n_tf",
-			"type":"text",
-			"text":"[[🏗️Terraform]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-460,
-			"y":-170,
-			"width":320,
-			"height":90,
-			"color":"4"
-		},
-		{
-			"id":"h_orch",
-			"type":"text",
-			"text":"☸️ **Оркестрация**",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
-			"x":-80,
-			"y":-480,
-			"width":320,
-			"height":90,
-			"color":"1"
-		},
-		{
-			"id":"n_k8s",
-			"type":"text",
-			"text":"[[☸️Kubernetes]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-80,
-			"y":-320,
-			"width":320,
-			"height":90,
-			"color":"6"
-		},
-		{
-			"id":"roadmap_label",
-			"type":"text",
-			"text":"📈 **Рекомендуемый порядок изучения**",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":-870,
-			"y":60,
-			"width":400,
-			"height":70
-		},
-		{
-			"id":"r_n_git",
-			"type":"text",
-			"text":"**1.** [[🌿Git Workflow]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-1600,
-			"y":220,
-			"width":280,
-			"height":70,
-			"color":"3"
-		},
-		{
-			"id":"r_n_docker",
-			"type":"text",
-			"text":"**2.** [[🐳Docker]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-1280,
-			"y":220,
-			"width":280,
-			"height":70,
-			"color":"5"
-		},
-		{
-			"id":"r_n_compose",
-			"type":"text",
-			"text":"**3.** [[🧩Docker Compose]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-960,
-			"y":220,
-			"width":280,
-			"height":70,
-			"color":"5"
-		},
-		{
-			"id":"r_n_cicd",
-			"type":"text",
-			"text":"**4.** [[🔄CI-CD Pipelines]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-640,
-			"y":220,
-			"width":280,
-			"height":70,
-			"color":"2"
-		},
-		{
-			"id":"r_n_jenkins",
-			"type":"text",
-			"text":"**5.** [[🤵Jenkins]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-320,
-			"y":220,
-			"width":280,
-			"height":70,
-			"color":"2"
-		},
-		{
-			"id":"r_n_ansible",
-			"type":"text",
-			"text":"**6.** [[⚙️Ansible]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":0,
-			"y":220,
-			"width":280,
-			"height":70,
-			"color":"4"
-		},
-		{
-			"id":"r_n_tf",
-			"type":"text",
-			"text":"**7.** [[🏗️Terraform]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":320,
-			"y":220,
-			"width":280,
-			"height":70,
-			"color":"4"
-		},
-		{
-			"id":"r_n_k8s",
-			"type":"text",
-			"text":"**8.** [[☸️Kubernetes]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":640,
-			"y":220,
-			"width":280,
-			"height":70,
-			"color":"6"
-		}
-	],
-	"edges":[
-		{
-			"id":"e_title_back",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"title",
-			"fromSide":"right",
-			"toNode":"back",
-			"toSide":"left",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"6"
-		},
-		{
-			"id":"e_title_git",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"title",
-			"fromSide":"bottom",
-			"toNode":"h_git",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow"
-		},
-		{
-			"id":"e_h_git_n_git",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"h_git",
-			"fromSide":"bottom",
-			"toNode":"n_git",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"3"
-		},
-		{
-			"id":"e_title_cont",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"title",
-			"fromSide":"bottom",
-			"toNode":"h_cont",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow"
-		},
-		{
-			"id":"e_h_cont_n_docker",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"h_cont",
-			"fromSide":"bottom",
-			"toNode":"n_docker",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"5"
-		},
-		{
-			"id":"e_n_docker_n_compose",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"n_docker",
-			"fromSide":"bottom",
-			"toNode":"n_compose",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"5"
-		},
-		{
-			"id":"e_title_cicd",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"title",
-			"fromSide":"bottom",
-			"toNode":"h_cicd",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow"
-		},
-		{
-			"id":"e_h_cicd_n_cicd",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"h_cicd",
-			"fromSide":"bottom",
-			"toNode":"n_cicd",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"2"
-		},
-		{
-			"id":"e_n_cicd_n_jenkins",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"n_cicd",
-			"fromSide":"bottom",
-			"toNode":"n_jenkins",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"2"
-		},
-		{
-			"id":"e_title_iac",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"title",
-			"fromSide":"bottom",
-			"toNode":"h_iac",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow"
-		},
-		{
-			"id":"e_h_iac_n_ansible",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"h_iac",
-			"fromSide":"bottom",
-			"toNode":"n_ansible",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"4"
-		},
-		{
-			"id":"e_n_ansible_n_tf",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"n_ansible",
-			"fromSide":"bottom",
-			"toNode":"n_tf",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"4"
-		},
-		{
-			"id":"e_title_orch",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"title",
-			"fromSide":"bottom",
-			"toNode":"h_orch",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow"
-		},
-		{
-			"id":"e_h_orch_n_k8s",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"h_orch",
-			"fromSide":"bottom",
-			"toNode":"n_k8s",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"6"
-		},
-		{
-			"id":"e_road_0",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"r_n_git",
-			"fromSide":"right",
-			"toNode":"r_n_docker",
-			"toSide":"left",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"1"
-		},
-		{
-			"id":"e_road_1",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"r_n_docker",
-			"fromSide":"right",
-			"toNode":"r_n_compose",
-			"toSide":"left",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"1"
-		},
-		{
-			"id":"e_road_2",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"r_n_compose",
-			"fromSide":"right",
-			"toNode":"r_n_cicd",
-			"toSide":"left",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"1"
-		},
-		{
-			"id":"e_road_3",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"r_n_cicd",
-			"fromSide":"right",
-			"toNode":"r_n_jenkins",
-			"toSide":"left",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"1"
-		},
-		{
-			"id":"e_road_4",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"r_n_jenkins",
-			"fromSide":"right",
-			"toNode":"r_n_ansible",
-			"toSide":"left",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"1"
-		},
-		{
-			"id":"e_road_5",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"r_n_ansible",
-			"fromSide":"right",
-			"toNode":"r_n_tf",
-			"toSide":"left",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"1"
-		},
-		{
-			"id":"e_road_6",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"r_n_tf",
-			"fromSide":"right",
-			"toNode":"r_n_k8s",
-			"toSide":"left",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"1"
-		},
-		{
-			"id":"e_label_road",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"roadmap_label",
-			"fromSide":"bottom",
-			"toNode":"r_n_git",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"1"
-		}
-	],
-	"metadata":{
-		"version":"1.0-1.0",
-		"frontmatter":{}
-	}
+    "nodes": [
+        {
+            "id": "title",
+            "type": "text",
+            "text": "🛠️**DevOps DevTools**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "pill"
+            },
+            "x": -870,
+            "y": -700,
+            "width": 400,
+            "height": 100
+        },
+        {
+            "id": "back",
+            "type": "text",
+            "text": "[[🤮💸Programing]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "database"
+            },
+            "x": 420,
+            "y": -700,
+            "width": 260,
+            "height": 90,
+            "color": "6"
+        },
+        {
+            "id": "h_git",
+            "type": "text",
+            "text": "🌱 **Основы**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "predefined-process"
+            },
+            "x": -1600,
+            "y": -480,
+            "width": 320,
+            "height": 90,
+            "color": "1"
+        },
+        {
+            "id": "n_git",
+            "type": "text",
+            "text": "[[🌿Git Workflow]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1600,
+            "y": -320,
+            "width": 320,
+            "height": 90,
+            "color": "3"
+        },
+        {
+            "id": "h_cont",
+            "type": "text",
+            "text": "🐳 **Контейнеризация**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "predefined-process"
+            },
+            "x": -1220,
+            "y": -480,
+            "width": 320,
+            "height": 90,
+            "color": "1"
+        },
+        {
+            "id": "n_docker",
+            "type": "text",
+            "text": "[[🐳Docker]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1220,
+            "y": -320,
+            "width": 320,
+            "height": 90,
+            "color": "5"
+        },
+        {
+            "id": "n_compose",
+            "type": "text",
+            "text": "[[🧩Docker Compose]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1220,
+            "y": -170,
+            "width": 320,
+            "height": 90,
+            "color": "5"
+        },
+        {
+            "id": "h_cicd",
+            "type": "text",
+            "text": "🔄 **CI/CD**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "predefined-process"
+            },
+            "x": -840,
+            "y": -480,
+            "width": 320,
+            "height": 90,
+            "color": "1"
+        },
+        {
+            "id": "n_cicd",
+            "type": "text",
+            "text": "[[🔄CI-CD Pipelines]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -840,
+            "y": -320,
+            "width": 320,
+            "height": 90,
+            "color": "2"
+        },
+        {
+            "id": "n_jenkins",
+            "type": "text",
+            "text": "[[🤵Jenkins]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -840,
+            "y": -170,
+            "width": 320,
+            "height": 90,
+            "color": "2"
+        },
+        {
+            "id": "h_iac",
+            "type": "text",
+            "text": "🏗️ **IaC**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "predefined-process"
+            },
+            "x": -460,
+            "y": -480,
+            "width": 320,
+            "height": 90,
+            "color": "1"
+        },
+        {
+            "id": "n_ansible",
+            "type": "text",
+            "text": "[[⚙️Ansible]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -460,
+            "y": -320,
+            "width": 320,
+            "height": 90,
+            "color": "4"
+        },
+        {
+            "id": "n_tf",
+            "type": "text",
+            "text": "[[🏗️Terraform]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -460,
+            "y": -170,
+            "width": 320,
+            "height": 90,
+            "color": "4"
+        },
+        {
+            "id": "h_orch",
+            "type": "text",
+            "text": "☸️ **Оркестрация**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "predefined-process"
+            },
+            "x": -80,
+            "y": -480,
+            "width": 320,
+            "height": 90,
+            "color": "1"
+        },
+        {
+            "id": "n_k8s",
+            "type": "text",
+            "text": "[[☸️Kubernetes]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -80,
+            "y": -320,
+            "width": 320,
+            "height": 90,
+            "color": "6"
+        },
+        {
+            "id": "roadmap_label",
+            "type": "text",
+            "text": "📈 **Рекомендуемый порядок изучения**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "pill"
+            },
+            "x": -870,
+            "y": 60,
+            "width": 400,
+            "height": 70
+        },
+        {
+            "id": "r_n_git",
+            "type": "text",
+            "text": "**1.** [[🌿Git Workflow]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1600,
+            "y": 220,
+            "width": 280,
+            "height": 70,
+            "color": "3"
+        },
+        {
+            "id": "r_n_docker",
+            "type": "text",
+            "text": "**2.** [[🐳Docker]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1280,
+            "y": 220,
+            "width": 280,
+            "height": 70,
+            "color": "5"
+        },
+        {
+            "id": "r_n_compose",
+            "type": "text",
+            "text": "**3.** [[🧩Docker Compose]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -960,
+            "y": 220,
+            "width": 280,
+            "height": 70,
+            "color": "5"
+        },
+        {
+            "id": "r_n_cicd",
+            "type": "text",
+            "text": "**4.** [[🔄CI-CD Pipelines]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -640,
+            "y": 220,
+            "width": 280,
+            "height": 70,
+            "color": "2"
+        },
+        {
+            "id": "r_n_jenkins",
+            "type": "text",
+            "text": "**5.** [[🤵Jenkins]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -320,
+            "y": 220,
+            "width": 280,
+            "height": 70,
+            "color": "2"
+        },
+        {
+            "id": "r_n_ansible",
+            "type": "text",
+            "text": "**6.** [[⚙️Ansible]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": 0,
+            "y": 220,
+            "width": 280,
+            "height": 70,
+            "color": "4"
+        },
+        {
+            "id": "r_n_tf",
+            "type": "text",
+            "text": "**7.** [[🏗️Terraform]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": 320,
+            "y": 220,
+            "width": 280,
+            "height": 70,
+            "color": "4"
+        },
+        {
+            "id": "r_n_k8s",
+            "type": "text",
+            "text": "**8.** [[☸️Kubernetes]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": 640,
+            "y": 220,
+            "width": 280,
+            "height": 70,
+            "color": "6"
+        },
+        {
+            "id": "n_helm",
+            "type": "text",
+            "text": "[[⛵Helm]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -80,
+            "y": -170,
+            "width": 320,
+            "height": 90,
+            "color": "6"
+        },
+        {
+            "id": "r_n_helm",
+            "type": "text",
+            "text": "**9.** [[⛵Helm]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": 960,
+            "y": 220,
+            "width": 280,
+            "height": 70,
+            "color": "6"
+        }
+    ],
+    "edges": [
+        {
+            "id": "e_title_back",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "right",
+            "toNode": "back",
+            "toSide": "left",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "6"
+        },
+        {
+            "id": "e_title_git",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "h_git",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow"
+        },
+        {
+            "id": "e_h_git_n_git",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_git",
+            "fromSide": "bottom",
+            "toNode": "n_git",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "3"
+        },
+        {
+            "id": "e_title_cont",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "h_cont",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow"
+        },
+        {
+            "id": "e_h_cont_n_docker",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_cont",
+            "fromSide": "bottom",
+            "toNode": "n_docker",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "5"
+        },
+        {
+            "id": "e_n_docker_n_compose",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "n_docker",
+            "fromSide": "bottom",
+            "toNode": "n_compose",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "5"
+        },
+        {
+            "id": "e_title_cicd",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "h_cicd",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow"
+        },
+        {
+            "id": "e_h_cicd_n_cicd",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_cicd",
+            "fromSide": "bottom",
+            "toNode": "n_cicd",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "2"
+        },
+        {
+            "id": "e_n_cicd_n_jenkins",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "n_cicd",
+            "fromSide": "bottom",
+            "toNode": "n_jenkins",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "2"
+        },
+        {
+            "id": "e_title_iac",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "h_iac",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow"
+        },
+        {
+            "id": "e_h_iac_n_ansible",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_iac",
+            "fromSide": "bottom",
+            "toNode": "n_ansible",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "4"
+        },
+        {
+            "id": "e_n_ansible_n_tf",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "n_ansible",
+            "fromSide": "bottom",
+            "toNode": "n_tf",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "4"
+        },
+        {
+            "id": "e_title_orch",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "h_orch",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow"
+        },
+        {
+            "id": "e_h_orch_n_k8s",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_orch",
+            "fromSide": "bottom",
+            "toNode": "n_k8s",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "6"
+        },
+        {
+            "id": "e_road_0",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "r_n_git",
+            "fromSide": "right",
+            "toNode": "r_n_docker",
+            "toSide": "left",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "1"
+        },
+        {
+            "id": "e_road_1",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "r_n_docker",
+            "fromSide": "right",
+            "toNode": "r_n_compose",
+            "toSide": "left",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "1"
+        },
+        {
+            "id": "e_road_2",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "r_n_compose",
+            "fromSide": "right",
+            "toNode": "r_n_cicd",
+            "toSide": "left",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "1"
+        },
+        {
+            "id": "e_road_3",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "r_n_cicd",
+            "fromSide": "right",
+            "toNode": "r_n_jenkins",
+            "toSide": "left",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "1"
+        },
+        {
+            "id": "e_road_4",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "r_n_jenkins",
+            "fromSide": "right",
+            "toNode": "r_n_ansible",
+            "toSide": "left",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "1"
+        },
+        {
+            "id": "e_road_5",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "r_n_ansible",
+            "fromSide": "right",
+            "toNode": "r_n_tf",
+            "toSide": "left",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "1"
+        },
+        {
+            "id": "e_road_6",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "r_n_tf",
+            "fromSide": "right",
+            "toNode": "r_n_k8s",
+            "toSide": "left",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "1"
+        },
+        {
+            "id": "e_label_road",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "roadmap_label",
+            "fromSide": "bottom",
+            "toNode": "r_n_git",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "1"
+        },
+        {
+            "id": "e_n_k8s_n_helm",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "n_k8s",
+            "fromSide": "bottom",
+            "toNode": "n_helm",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "6"
+        },
+        {
+            "id": "e_road_8",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "r_n_k8s",
+            "fromSide": "right",
+            "toNode": "r_n_helm",
+            "toSide": "left",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "1"
+        }
+    ],
+    "metadata": {
+        "version": "1.0-1.0",
+        "frontmatter": {}
+    }
 }
