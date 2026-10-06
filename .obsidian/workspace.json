@@ -11,14 +11,15 @@
             "id": "1d52b6d8b724d8bb",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "🤮💸Programing/🛠️DevOps DevTools/☸️Kubernetes.md",
-                "bFile": "🤮💸Programing/🛠️DevOps DevTools/☸️Kubernetes.md",
-                "aRef": ""
+                "file": "🤮💸Programing/🛠️DevOps DevTools/🔄CI-CD Pipelines.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "diff",
-              "title": "Diff: ☸️Kubernetes  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "🔄CI-CD Pipelines"
             }
           }
         ]
@@ -99,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "🤮💸Programing/🛠️DevOps DevTools/🔄CI-CD Pipelines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,11 +119,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "🤮💸Programing/🛠️DevOps DevTools/🔄CI-CD Pipelines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Исходящие ссылки"
             }
           },
           {
@@ -136,7 +139,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Теги"
             }
           },
           {
@@ -150,7 +153,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Все свойства"
             }
           },
           {
