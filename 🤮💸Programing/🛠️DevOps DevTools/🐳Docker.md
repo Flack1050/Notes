@@ -4,7 +4,8 @@ tags: [docker, containers, devops]
 
 # 🐳 Docker
 
-Связано: [[🧩Docker Compose]] · [[☸️Kubernetes]] · [[🔄CI-CD Pipelines]]
+Связано с [[🗺️ DevOps MOC]]
+
 
 ## Ключевые понятия
 

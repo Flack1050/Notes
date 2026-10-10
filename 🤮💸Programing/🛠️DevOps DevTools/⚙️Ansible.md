@@ -4,7 +4,8 @@ tags: [ansible, iac, devops]
 
 # ⚙️ Ansible
 
-Связано: [[🔄CI-CD Pipelines]] · [[🏗️Terraform]] · [[🐳Docker]]
+Связано с [[🗺️ DevOps MOC]]
+
 
 Agentless-инструмент автоматизации конфигурации: коннектится по SSH, ничего не нужно ставить на управляемые машины (только Python).
 

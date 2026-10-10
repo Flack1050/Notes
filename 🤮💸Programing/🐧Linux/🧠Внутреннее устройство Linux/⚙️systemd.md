@@ -1,50 +1,14 @@
 ---
-tags: [linux, boot, systemd, init]
+tags: [linux, systemd, init]
 ---
 
-# 🥾 Загрузка и init
+# ⚙️ systemd
 
-Связано: [[🧠Архитектура Linux]] · [[⚙️Процессы, память и файловая система]]
+Связано с [[🧠Внутреннее устройство Linux]]
 
-Путь от нажатия кнопки питания до рабочего шелла/логина.
+PID 1, юниты, таргеты (бывшие runlevels), логи.
 
-## Полная цепочка загрузки
-
-```
-1. BIOS/UEFI       — проверка железа (POST), поиск загрузочного устройства
-2. Bootloader      — GRUB (или systemd-boot) показывает меню, грузит ядро + initramfs
-3. Kernel init      — ядро распаковывается, инициализирует память, CPU, базовые драйверы
-4. initramfs          — временный корень в RAM: подгружает модули (диск/FS), чтобы смонтировать реальный "/"
-5. pivot_root/switch_root — переключение с initramfs на настоящую корневую ФС с диска
-6. PID 1 (systemd)     — первый процесс userspace, запускает всё остальное
-7. Targets/units        — systemd поднимает сеть, логирование, графику, твои сервисы
-8. Login / display manager — getty (TTY) или SDDM/GDM (графический вход)
-```
-
-### 1-2. BIOS/UEFI → Bootloader
-
-- **BIOS** (legacy) читает **MBR** (первые 446 байт диска) — там лежит код загрузчика первой стадии.
-- **UEFI** (современный стандарт) читает **EFI System Partition** (FAT32-раздел с `.efi` файлами) — более гибкий, поддерживает Secure Boot, GPT-диски >2ТБ.
-
-**GRUB** (GRand Unified Bootloader) — показывает меню выбора ОС/ядра, передаёт ядру параметры загрузки (`/etc/default/grub` → `grub-mkconfig`):
-
-```bash
-sudo grub-mkconfig -o /boot/grub/grub.cfg   # пересобрать конфиг grub (Arch)
-cat /proc/cmdline                             # с какими параметрами реально загрузилось текущее ядро
-```
-
-### 3-5. Ядро и initramfs
-
-**initramfs** — временная корневая файловая система **в оперативной памяти**, которую ядро монтирует первой. Нужна потому, что для монтирования реального диска часто нужны модули (драйвер RAID, LVM, шифрование диска, NVMe), которые ещё не загружены — initramfs содержит минимальный набор инструментов и модулей именно для этого.
-
-```bash
-mkinitcpio -P                   # пересобрать initramfs (Arch Linux)
-lsinitcpio /boot/initramfs-linux.img   # посмотреть что внутри
-```
-
-После того как настоящий диск смонтирован, ядро делает `switch_root`/`pivot_root` — переключается с временного initramfs-корня на реальный `/` с диска, и запускает **PID 1**.
-
-### 6-7. systemd — PID 1
+## systemd — PID 1
 
 **systemd** — первый процесс userspace (`PID 1`), родитель всех остальных процессов, управляет тем, в каком порядке и как стартуют сервисы.
 
@@ -127,5 +91,3 @@ WantedBy=multi-user.target
 sudo systemctl daemon-reload     # после создания/правки unit-файла
 sudo systemctl enable --now myapp
 ```
-
-#linux #boot #systemd #init #grub

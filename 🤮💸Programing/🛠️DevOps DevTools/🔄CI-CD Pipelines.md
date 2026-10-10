@@ -4,7 +4,8 @@ tags: [cicd, pipelines, devops]
 
 # 🔄 CI/CD Pipelines
 
-Связано: [[🐳Docker]] · [[🌿Git Workflow]] · [[☸️Kubernetes]] · [[⚙️Ansible]] · [[🤵Jenkins]] · [[🦊GitLab CI]] · [[🔁GitOps]]
+Связано с [[🗺️ DevOps MOC]]
+
 
 ## Терминология
 
@@ -66,7 +67,7 @@ jobs:
 ## GitLab CI — пример
 
 > [!note] Подробнее
-> Синтаксис `rules`, кэш/артефакты, environments, Runner'ы и связка с GitOps — в отдельной заметке [[🦊GitLab CI]].
+> Синтаксис `rules`, кэш/артефакты, environments, Runner'ы и связка с GitOps — в отдельной заметке 🦊GitLab CI.
 
 
 `.gitlab-ci.yml`:

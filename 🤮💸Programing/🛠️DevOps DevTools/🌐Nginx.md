@@ -4,7 +4,8 @@ tags: [nginx, devops, networking]
 
 # 🌐 Nginx
 
-Связано: [[🐳Docker]] · [[☸️Kubernetes]] · [[🔄CI-CD Pipelines]] · [[🌐Networks]]
+Связано с [[🗺️ DevOps MOC]]
+
 
 Веб-сервер и обратный прокси. В DevOps чаще всего используется как: reverse proxy перед приложением, балансировщик нагрузки, TLS-терминатор, раздача статики.
 
@@ -130,7 +131,7 @@ server {
 
 ## Nginx как Ingress Controller в Kubernetes
 
-В связке с [[☸️Kubernetes]] чаще всего ставится не сам nginx, а **ingress-nginx** (отдельный чарт [[⛵Helm]]):
+В связке с ☸️Kubernetes чаще всего ставится не сам nginx, а **ingress-nginx** (отдельный чарт ⛵Helm):
 
 ```bash
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx

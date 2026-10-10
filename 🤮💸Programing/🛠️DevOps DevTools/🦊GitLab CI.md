@@ -4,9 +4,10 @@ tags: [gitlab-ci, cicd, gitops, devops]
 
 # 🦊 GitLab CI
 
-Связано: [[🔄CI-CD Pipelines]] · [[🔁GitOps]] · [[🐙ArgoCD]] · [[📘Git]]
+Связано с [[🗺️ DevOps MOC]]
 
-Встроенная в GitLab CI/CD-система: пайплайн описывается в `.gitlab-ci.yml` в корне репозитория, выполняется на **GitLab Runner**'ах. Базовый пример пайплайна уже есть в [[🔄CI-CD Pipelines]] — здесь глубже про синтаксис и продвинутые фичи.
+
+Встроенная в GitLab CI/CD-система: пайплайн описывается в `.gitlab-ci.yml` в корне репозитория, выполняется на **GitLab Runner**'ах. Базовый пример пайплайна уже есть в 🔄CI-CD Pipelines — здесь глубже про синтаксис и продвинутые фичи.
 
 ## Структура `.gitlab-ci.yml`
 
@@ -164,7 +165,7 @@ sudo gitlab-runner register \
 
 ## GitLab CI как часть GitOps-флоу
 
-GitLab CI сам по себе — push-модель, но его часто используют именно как **тот, кто обновляет config-репозиторий** для [[🐙ArgoCD]]/Flux (см. [[🔁GitOps]]):
+GitLab CI сам по себе — push-модель, но его часто используют именно как **тот, кто обновляет config-репозиторий** для 🐙ArgoCD/Flux (см. 🔁GitOps):
 
 ```yaml
 update_gitops_repo:

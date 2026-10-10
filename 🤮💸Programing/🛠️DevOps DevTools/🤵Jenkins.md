@@ -4,7 +4,8 @@ tags: [jenkins, cicd, devops]
 
 # 🤵 Jenkins
 
-Связано: [[🔄CI-CD Pipelines]] · [[☸️Kubernetes]] · [[🐳Docker]] · [[⚙️Ansible]]
+Связано с [[🗺️ DevOps MOC]]
+
 
 Self-hosted сервер автоматизации. В отличие от GitHub Actions/GitLab CI, разворачивается сам (обычно в докере) и полностью управляется вручную — гибче, но требует администрирования.
 

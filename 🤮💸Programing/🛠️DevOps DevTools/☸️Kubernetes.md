@@ -4,7 +4,8 @@ tags: [kubernetes, k8s, containers, devops]
 
 # ☸️ Kubernetes
 
-Связано: [[🐳Docker]] · [[🔄CI-CD Pipelines]] · [[🏗️Terraform]] · [[⛵Helm]]
+Связано с [[🗺️ DevOps MOC]]
+
 
 Оркестратор контейнеров: сам следит, чтобы описанное состояние ("desired state") соответствовало реальному ("actual state").
 
@@ -156,9 +157,9 @@ minikube start
 
 ## Helm
 
-Пакетный менеджер для Kubernetes — подробный разбор чартов, values и команд вынесен в отдельную заметку: [[⛵Helm]]
+Пакетный менеджер для Kubernetes — подробный разбор чартов, values и команд вынесен в отдельную заметку: ⛵Helm
 
 > [!note] Когда нужен k8s, а когда хватит Compose
-> Если у тебя один сервер и нагрузка не требует горизонтального авто-масштабирования — [[🧩Docker Compose]] проще и достаточно. K8s стоит подключать, когда нужен self-healing, multi-node scheduling или zero-downtime rolling updates на масштабе.
+> Если у тебя один сервер и нагрузка не требует горизонтального авто-масштабирования — 🧩Docker Compose проще и достаточно. K8s стоит подключать, когда нужен self-healing, multi-node scheduling или zero-downtime rolling updates на масштабе.
 
 #kubernetes #k8s #containers #devops

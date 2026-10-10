@@ -4,6 +4,8 @@ tags: [moc, devops]
 
 # 🗺️ DevOps — карта заметок
 
+Связано с [[🤮💸Programing]]
+
 Точка входа во весь раздел. Отсюда линки на всё остальное.
 
 > [!info] Визуальная карта
@@ -54,6 +56,5 @@ tags: [moc, devops]
 7. [[⛵Helm]] — пакует k8s-манифесты в переиспользуемые чарты
 8. [[🔁GitOps]] → [[🐙ArgoCD]] — когда ручной `kubectl apply`/`helm upgrade` надоел
 
-Смотри также: [[🌐Nginx]] (reverse proxy/ingress), [[📘Git]] (внутренности git), [[🌐Networks]] (сети для DevOps).
 
 #moc #devops

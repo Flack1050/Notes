@@ -7,7 +7,8 @@ tags:
 
 # 🧩 Docker Compose
 
-Связано: [[🐳Docker]] · [[🔄CI-CD Pipelines]]
+Связано с [[🗺️ DevOps MOC]]
+
 
 Декларативное описание multi-container приложения в одном YAML-файле.
 

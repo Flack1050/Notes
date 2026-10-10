@@ -9,51 +9,9 @@
                 "shape": "pill"
             },
             "x": -260,
-            "y": -380,
+            "y": -420,
             "width": 520,
             "height": 100
-        },
-        {
-            "id": "n1",
-            "type": "text",
-            "text": "[[🧠Архитектура Linux]]",
-            "styleAttributes": {
-                "textAlign": "center",
-                "shape": "parallelogram"
-            },
-            "x": -700,
-            "y": -180,
-            "width": 330,
-            "height": 90,
-            "color": "5"
-        },
-        {
-            "id": "n2",
-            "type": "text",
-            "text": "[[🥾Загрузка и init]]",
-            "styleAttributes": {
-                "textAlign": "center",
-                "shape": "parallelogram"
-            },
-            "x": -280,
-            "y": -180,
-            "width": 330,
-            "height": 90,
-            "color": "2"
-        },
-        {
-            "id": "n3",
-            "type": "text",
-            "text": "[[⚙️Процессы, память и файловая система]]",
-            "styleAttributes": {
-                "textAlign": "center",
-                "shape": "parallelogram"
-            },
-            "x": 140,
-            "y": -180,
-            "width": 360,
-            "height": 90,
-            "color": "4"
         },
         {
             "id": "back",
@@ -63,16 +21,172 @@
                 "textAlign": "center",
                 "shape": "database"
             },
-            "x": 540,
-            "y": -380,
+            "x": 250,
+            "y": -420,
             "width": 300,
             "height": 90,
             "color": "6"
+        },
+        {
+            "id": "n0",
+            "type": "text",
+            "text": "[[🏛️Уровни системы и ядро]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -550,
+            "y": -200,
+            "width": 340,
+            "height": 90,
+            "color": "5"
+        },
+        {
+            "id": "n1",
+            "type": "text",
+            "text": "[[📞Системные вызовы и модули]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -170,
+            "y": -200,
+            "width": 340,
+            "height": 90,
+            "color": "5"
+        },
+        {
+            "id": "n2",
+            "type": "text",
+            "text": "[[🥾Загрузка системы]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": 210,
+            "y": -200,
+            "width": 340,
+            "height": 90,
+            "color": "2"
+        },
+        {
+            "id": "n3",
+            "type": "text",
+            "text": "[[⚙️systemd]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -550,
+            "y": -40,
+            "width": 340,
+            "height": 90,
+            "color": "2"
+        },
+        {
+            "id": "n4",
+            "type": "text",
+            "text": "[[🧵Процессы]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -170,
+            "y": -40,
+            "width": 340,
+            "height": 90,
+            "color": "4"
+        },
+        {
+            "id": "n5",
+            "type": "text",
+            "text": "[[🧊Namespaces и cgroups]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": 210,
+            "y": -40,
+            "width": 340,
+            "height": 90,
+            "color": "4"
+        },
+        {
+            "id": "n6",
+            "type": "text",
+            "text": "[[💾Память]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -550,
+            "y": 120,
+            "width": 340,
+            "height": 90,
+            "color": "4"
+        },
+        {
+            "id": "n7",
+            "type": "text",
+            "text": "[[📂Файловая система]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -170,
+            "y": 120,
+            "width": 340,
+            "height": 90,
+            "color": "3"
+        },
+        {
+            "id": "n8",
+            "type": "text",
+            "text": "[[🔐Inode и права доступа]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": 210,
+            "y": 120,
+            "width": 340,
+            "height": 90,
+            "color": "3"
         }
     ],
     "edges": [
         {
-            "id": "e_t_n1",
+            "id": "e_back",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "right",
+            "toNode": "back",
+            "toSide": "left",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "6"
+        },
+        {
+            "id": "e0",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n0",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "5"
+        },
+        {
+            "id": "e1",
             "styleAttributes": {
                 "pathfindingMethod": "direct"
             },
@@ -87,49 +201,109 @@
             "color": "5"
         },
         {
-            "id": "e_n1_n2",
-            "styleAttributes": {
-                "pathfindingMethod": "direct"
-            },
-            "toFloating": false,
-            "fromFloating": false,
-            "fromNode": "n1",
-            "fromSide": "right",
-            "toNode": "n2",
-            "toSide": "left",
-            "fromEnd": "none",
-            "toEnd": "arrow",
-            "color": "1"
-        },
-        {
-            "id": "e_n2_n3",
-            "styleAttributes": {
-                "pathfindingMethod": "direct"
-            },
-            "toFloating": false,
-            "fromFloating": false,
-            "fromNode": "n2",
-            "fromSide": "right",
-            "toNode": "n3",
-            "toSide": "left",
-            "fromEnd": "none",
-            "toEnd": "arrow",
-            "color": "1"
-        },
-        {
-            "id": "e_t_back",
+            "id": "e2",
             "styleAttributes": {
                 "pathfindingMethod": "direct"
             },
             "toFloating": false,
             "fromFloating": false,
             "fromNode": "title",
-            "fromSide": "right",
-            "toNode": "back",
-            "toSide": "left",
+            "fromSide": "bottom",
+            "toNode": "n2",
+            "toSide": "top",
             "fromEnd": "none",
             "toEnd": "arrow",
-            "color": "6"
+            "color": "2"
+        },
+        {
+            "id": "e3",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n3",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "2"
+        },
+        {
+            "id": "e4",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n4",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "4"
+        },
+        {
+            "id": "e5",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n5",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "4"
+        },
+        {
+            "id": "e6",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n6",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "4"
+        },
+        {
+            "id": "e7",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n7",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "3"
+        },
+        {
+            "id": "e8",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n8",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "3"
         }
     ],
     "metadata": {

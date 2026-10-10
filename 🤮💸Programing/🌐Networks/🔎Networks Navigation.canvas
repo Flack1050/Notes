@@ -8,143 +8,183 @@
                 "textAlign": "center",
                 "shape": "pill"
             },
-            "x": -200,
-            "y": -400,
-            "width": 400,
+            "x": -260,
+            "y": -420,
+            "width": 520,
             "height": 100
-        },
-        {
-            "id": "h_basics",
-            "type": "text",
-            "text": "📚 **Основы**",
-            "styleAttributes": {
-                "textAlign": "center",
-                "shape": "predefined-process"
-            },
-            "x": -600,
-            "y": -200,
-            "width": 320,
-            "height": 90,
-            "color": "1"
-        },
-        {
-            "id": "n_basics",
-            "type": "text",
-            "text": "[[🌐Networks]]",
-            "styleAttributes": {
-                "textAlign": "center",
-                "shape": "parallelogram"
-            },
-            "x": -600,
-            "y": -40,
-            "width": 320,
-            "height": 90,
-            "color": "5"
-        },
-        {
-            "id": "h_devops",
-            "type": "text",
-            "text": "🧰 **Прикладное**",
-            "styleAttributes": {
-                "textAlign": "center",
-                "shape": "predefined-process"
-            },
-            "x": 0,
-            "y": -200,
-            "width": 320,
-            "height": 90,
-            "color": "1"
-        },
-        {
-            "id": "n_devops",
-            "type": "text",
-            "text": "[[🧰DevOps Networking]]",
-            "styleAttributes": {
-                "textAlign": "center",
-                "shape": "parallelogram"
-            },
-            "x": 0,
-            "y": -40,
-            "width": 320,
-            "height": 90,
-            "color": "2"
         },
         {
             "id": "back",
             "type": "text",
-            "text": "[[🤮💸Programing]]",
+            "text": "[[🌐Networks|🌐 Networks хаб]]",
             "styleAttributes": {
                 "textAlign": "center",
                 "shape": "database"
             },
-            "x": 400,
-            "y": -400,
-            "width": 280,
+            "x": 440,
+            "y": -420,
+            "width": 300,
             "height": 90,
             "color": "6"
+        },
+        {
+            "id": "n0",
+            "type": "text",
+            "text": "[[🧱OSI и TCP-IP]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -740,
+            "y": -200,
+            "width": 340,
+            "height": 90,
+            "color": "5"
+        },
+        {
+            "id": "n1",
+            "type": "text",
+            "text": "[[📡TCP, UDP и порты]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -360,
+            "y": -200,
+            "width": 340,
+            "height": 90,
+            "color": "5"
+        },
+        {
+            "id": "n2",
+            "type": "text",
+            "text": "[[🔢IP-адресация и NAT]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": 20,
+            "y": -200,
+            "width": 340,
+            "height": 90,
+            "color": "5"
+        },
+        {
+            "id": "n3",
+            "type": "text",
+            "text": "[[🔎DNS]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": 400,
+            "y": -200,
+            "width": 340,
+            "height": 90,
+            "color": "5"
+        },
+        {
+            "id": "n4",
+            "type": "text",
+            "text": "[[🔐HTTP и TLS]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -740,
+            "y": -40,
+            "width": 340,
+            "height": 90,
+            "color": "2"
+        },
+        {
+            "id": "n5",
+            "type": "text",
+            "text": "[[🔥Фаервол]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -360,
+            "y": -40,
+            "width": 340,
+            "height": 90,
+            "color": "2"
+        },
+        {
+            "id": "n6",
+            "type": "text",
+            "text": "[[⚖️Балансировка и прокси]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": 20,
+            "y": -40,
+            "width": 340,
+            "height": 90,
+            "color": "2"
+        },
+        {
+            "id": "n7",
+            "type": "text",
+            "text": "[[🐳Сеть в Docker]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": 400,
+            "y": -40,
+            "width": 340,
+            "height": 90,
+            "color": "2"
+        },
+        {
+            "id": "n8",
+            "type": "text",
+            "text": "[[☸️Сеть в Kubernetes]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -740,
+            "y": 120,
+            "width": 340,
+            "height": 90,
+            "color": "4"
+        },
+        {
+            "id": "n9",
+            "type": "text",
+            "text": "[[🛡️VPN]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -360,
+            "y": 120,
+            "width": 340,
+            "height": 90,
+            "color": "4"
+        },
+        {
+            "id": "n10",
+            "type": "text",
+            "text": "[[🧰Диагностика сети]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": 20,
+            "y": 120,
+            "width": 340,
+            "height": 90,
+            "color": "4"
         }
     ],
     "edges": [
         {
-            "id": "e_title_basics",
-            "styleAttributes": {
-                "pathfindingMethod": "direct"
-            },
-            "toFloating": false,
-            "fromFloating": false,
-            "fromNode": "title",
-            "fromSide": "bottom",
-            "toNode": "h_basics",
-            "toSide": "top",
-            "fromEnd": "none",
-            "toEnd": "arrow"
-        },
-        {
-            "id": "e_h_basics_n",
-            "styleAttributes": {
-                "pathfindingMethod": "direct"
-            },
-            "toFloating": false,
-            "fromFloating": false,
-            "fromNode": "h_basics",
-            "fromSide": "bottom",
-            "toNode": "n_basics",
-            "toSide": "top",
-            "fromEnd": "none",
-            "toEnd": "arrow",
-            "color": "5"
-        },
-        {
-            "id": "e_title_devops",
-            "styleAttributes": {
-                "pathfindingMethod": "direct"
-            },
-            "toFloating": false,
-            "fromFloating": false,
-            "fromNode": "title",
-            "fromSide": "bottom",
-            "toNode": "h_devops",
-            "toSide": "top",
-            "fromEnd": "none",
-            "toEnd": "arrow"
-        },
-        {
-            "id": "e_h_devops_n",
-            "styleAttributes": {
-                "pathfindingMethod": "direct"
-            },
-            "toFloating": false,
-            "fromFloating": false,
-            "fromNode": "h_devops",
-            "fromSide": "bottom",
-            "toNode": "n_devops",
-            "toSide": "top",
-            "fromEnd": "none",
-            "toEnd": "arrow",
-            "color": "2"
-        },
-        {
-            "id": "e_title_back",
+            "id": "e_back",
             "styleAttributes": {
                 "pathfindingMethod": "direct"
             },
@@ -157,6 +197,171 @@
             "fromEnd": "none",
             "toEnd": "arrow",
             "color": "6"
+        },
+        {
+            "id": "e0",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n0",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "5"
+        },
+        {
+            "id": "e1",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n1",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "5"
+        },
+        {
+            "id": "e2",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n2",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "5"
+        },
+        {
+            "id": "e3",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n3",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "5"
+        },
+        {
+            "id": "e4",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n4",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "2"
+        },
+        {
+            "id": "e5",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n5",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "2"
+        },
+        {
+            "id": "e6",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n6",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "2"
+        },
+        {
+            "id": "e7",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n7",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "2"
+        },
+        {
+            "id": "e8",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n8",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "4"
+        },
+        {
+            "id": "e9",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n9",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "4"
+        },
+        {
+            "id": "e10",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n10",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "4"
         }
     ],
     "metadata": {

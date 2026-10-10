@@ -1,139 +1,116 @@
 {
-    "nodes": [
-        {
-            "id": "title",
-            "type": "text",
-            "text": "🐧**Linux**",
-            "styleAttributes": {
-                "textAlign": "center",
-                "shape": "pill"
-            },
-            "x": -560,
-            "y": -420,
-            "width": 400,
-            "height": 100
-        },
-        {
-            "id": "n_arch",
-            "type": "text",
-            "text": "[[🤮💸Programing/🐧Linux/🔷 Arch Linux/🗺️ Arch Linux Navigation.canvas|🔷 Arch Linux]]",
-            "styleAttributes": {
-                "textAlign": "center",
-                "shape": "parallelogram"
-            },
-            "x": -900,
-            "y": -220,
-            "width": 300,
-            "height": 100,
-            "color": "5"
-        },
-        {
-            "id": "n_devops",
-            "type": "text",
-            "text": "[[🛠️DevOps DevTools/🔎DevOps Navigation.canvas|🛠️ DevOps Navigation]]",
-            "styleAttributes": {
-                "textAlign": "center",
-                "shape": "database"
-            },
-            "x": -460,
-            "y": -220,
-            "width": 300,
-            "height": 100,
-            "color": "6"
-        },
-        {
-            "id": "back",
-            "type": "text",
-            "text": "[[🔎 Programing Navigation.canvas|💻 Programing Navigation]]",
-            "styleAttributes": {
-                "textAlign": "center",
-                "shape": "database"
-            },
-            "x": -560,
-            "y": -600,
-            "width": 400,
-            "height": 90,
-            "color": "6"
-        },
-        {
-            "id": "n_internals",
-            "type": "text",
-            "text": "[[🧠Внутреннее устройство Linux/🧠Архитектура Linux|🧠 Внутреннее устройство Linux]]",
-            "styleAttributes": {
-                "textAlign": "center",
-                "shape": "parallelogram"
-            },
-            "x": -20,
-            "y": -220,
-            "width": 360,
-            "height": 90,
-            "color": "2"
-        }
-    ],
-    "edges": [
-        {
-            "id": "e_title_arch",
-            "styleAttributes": {
-                "pathfindingMethod": "direct"
-            },
-            "toFloating": false,
-            "fromFloating": false,
-            "fromNode": "title",
-            "fromSide": "bottom",
-            "toNode": "n_arch",
-            "toSide": "top",
-            "fromEnd": "none",
-            "toEnd": "arrow",
-            "color": "5"
-        },
-        {
-            "id": "e_title_devops",
-            "styleAttributes": {
-                "pathfindingMethod": "direct"
-            },
-            "toFloating": false,
-            "fromFloating": false,
-            "fromNode": "title",
-            "fromSide": "bottom",
-            "toNode": "n_devops",
-            "toSide": "top",
-            "fromEnd": "none",
-            "toEnd": "arrow",
-            "color": "6"
-        },
-        {
-            "id": "e_back_title",
-            "styleAttributes": {
-                "pathfindingMethod": "direct"
-            },
-            "toFloating": false,
-            "fromFloating": false,
-            "fromNode": "back",
-            "fromSide": "bottom",
-            "toNode": "title",
-            "toSide": "top",
-            "fromEnd": "none",
-            "toEnd": "arrow",
-            "color": "6"
-        },
-        {
-            "id": "e_title_internals",
-            "styleAttributes": {
-                "pathfindingMethod": "direct"
-            },
-            "toFloating": false,
-            "fromFloating": false,
-            "fromNode": "title",
-            "fromSide": "bottom",
-            "toNode": "n_internals",
-            "toSide": "top",
-            "fromEnd": "none",
-            "toEnd": "arrow",
-            "color": "2"
-        }
-    ],
-    "metadata": {
-        "version": "1.0-1.0",
-        "frontmatter": {}
-    }
+	"nodes":[
+		{
+			"id":"title",
+			"type":"text",
+			"text":"🐧**Linux**",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":-560,
+			"y":-420,
+			"width":400,
+			"height":100
+		},
+		{
+			"id":"n_arch",
+			"type":"text",
+			"text":"[[🤮💸Programing/🐧Linux/🔷 Arch Linux/🗺️ Arch Linux Navigation.canvas|🔷 Arch Linux]]",
+			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
+			"x":-900,
+			"y":-220,
+			"width":300,
+			"height":100,
+			"color":"5"
+		},
+		{
+			"id":"n_devops",
+			"type":"text",
+			"text":"[[🛠️DevOps DevTools/🔎DevOps Navigation.canvas|🛠️ DevOps Navigation]]",
+			"styleAttributes":{"textAlign":"center","shape":"database"},
+			"x":-460,
+			"y":-220,
+			"width":300,
+			"height":100,
+			"color":"6"
+		},
+		{
+			"id":"back",
+			"type":"text",
+			"text":"[[🔎 Programing Navigation.canvas|💻 Programing Navigation]]",
+			"styleAttributes":{"textAlign":"center","shape":"database"},
+			"x":-560,
+			"y":-600,
+			"width":400,
+			"height":90,
+			"color":"6"
+		},
+		{
+			"id":"n_internals",
+			"type":"text",
+			"text":"[[🧠Внутреннее устройство Linux|🧠 Внутреннее устройство Linux]]",
+			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
+			"x":-20,
+			"y":-220,
+			"width":360,
+			"height":90,
+			"color":"2"
+		}
+	],
+	"edges":[
+		{
+			"id":"e_title_arch",
+			"styleAttributes":{"pathfindingMethod":"direct"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"title",
+			"fromSide":"bottom",
+			"toNode":"n_arch",
+			"toSide":"top",
+			"fromEnd":"none",
+			"toEnd":"arrow",
+			"color":"5"
+		},
+		{
+			"id":"e_title_devops",
+			"styleAttributes":{"pathfindingMethod":"direct"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"title",
+			"fromSide":"bottom",
+			"toNode":"n_devops",
+			"toSide":"top",
+			"fromEnd":"none",
+			"toEnd":"arrow",
+			"color":"6"
+		},
+		{
+			"id":"e_back_title",
+			"styleAttributes":{"pathfindingMethod":"direct"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"back",
+			"fromSide":"bottom",
+			"toNode":"title",
+			"toSide":"top",
+			"fromEnd":"none",
+			"toEnd":"arrow",
+			"color":"6"
+		},
+		{
+			"id":"e_title_internals",
+			"styleAttributes":{"pathfindingMethod":"direct"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"title",
+			"fromSide":"bottom",
+			"toNode":"n_internals",
+			"toSide":"top",
+			"fromEnd":"none",
+			"toEnd":"arrow",
+			"color":"2"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
 }

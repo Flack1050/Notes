@@ -4,7 +4,8 @@ tags: [helm, kubernetes, k8s, devops]
 
 # ⛵ Helm
 
-Связано: [[☸️Kubernetes]] · [[CI-CD Pipelines|🔄CI-CD Pipelines]]
+Связано с [[🗺️ DevOps MOC]]
+
 
 Пакетный менеджер для Kubernetes — вместо десятков YAML-манифестов с ручными правками ты ставишь/обновляешь приложение одной командой из шаблонизированного пакета (**chart**).
 
@@ -139,7 +140,7 @@ helm upgrade --install myapp ./mychart \
 
 ## Helm в CI/CD
 
-Типичный шаг деплоя в pipeline (см. [[CI-CD Pipelines|🔄CI-CD Pipelines]]):
+Типичный шаг деплоя в pipeline (см. 🔄CI-CD Pipelines):
 
 ```bash
 helm upgrade --install myapp ./chart \

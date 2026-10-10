@@ -4,7 +4,8 @@ tags: [terraform, iac, devops]
 
 # 🏗️ Terraform
 
-Связано: [[⚙️Ansible]] · [[☸️Kubernetes]]
+Связано с [[🗺️ DevOps MOC]]
+
 
 Infrastructure as Code для **провижининга** ресурсов (в отличие от Ansible, который больше про конфигурацию уже существующих машин).
 

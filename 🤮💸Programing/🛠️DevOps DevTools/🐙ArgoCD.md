@@ -4,7 +4,8 @@ tags: [argocd, gitops, kubernetes, devops]
 
 # 🐙 ArgoCD
 
-Связано: [[🔁GitOps]] · [[☸️Kubernetes]] · [[⛵Helm]]
+Связано с [[🗺️ DevOps MOC]]
+
 
 Декларативный GitOps-контроллер для Kubernetes: следит за git-репозиторием и держит кластер в состоянии, описанном там, автоматически подтягивая изменения.
 
