@@ -1,0 +1,166 @@
+{
+    "nodes": [
+        {
+            "id": "title",
+            "type": "text",
+            "text": "🌐**Networks**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "pill"
+            },
+            "x": -200,
+            "y": -400,
+            "width": 400,
+            "height": 100
+        },
+        {
+            "id": "h_basics",
+            "type": "text",
+            "text": "📚 **Основы**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "predefined-process"
+            },
+            "x": -600,
+            "y": -200,
+            "width": 320,
+            "height": 90,
+            "color": "1"
+        },
+        {
+            "id": "n_basics",
+            "type": "text",
+            "text": "[[🌐Networks]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -600,
+            "y": -40,
+            "width": 320,
+            "height": 90,
+            "color": "5"
+        },
+        {
+            "id": "h_devops",
+            "type": "text",
+            "text": "🧰 **Прикладное**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "predefined-process"
+            },
+            "x": 0,
+            "y": -200,
+            "width": 320,
+            "height": 90,
+            "color": "1"
+        },
+        {
+            "id": "n_devops",
+            "type": "text",
+            "text": "[[🧰DevOps Networking]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": 0,
+            "y": -40,
+            "width": 320,
+            "height": 90,
+            "color": "2"
+        },
+        {
+            "id": "back",
+            "type": "text",
+            "text": "[[🤮💸Programing]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "database"
+            },
+            "x": 400,
+            "y": -400,
+            "width": 280,
+            "height": 90,
+            "color": "6"
+        }
+    ],
+    "edges": [
+        {
+            "id": "e_title_basics",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "h_basics",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow"
+        },
+        {
+            "id": "e_h_basics_n",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_basics",
+            "fromSide": "bottom",
+            "toNode": "n_basics",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "5"
+        },
+        {
+            "id": "e_title_devops",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "h_devops",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow"
+        },
+        {
+            "id": "e_h_devops_n",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_devops",
+            "fromSide": "bottom",
+            "toNode": "n_devops",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "2"
+        },
+        {
+            "id": "e_title_back",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "right",
+            "toNode": "back",
+            "toSide": "left",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "6"
+        }
+    ],
+    "metadata": {
+        "version": "1.0-1.0",
+        "frontmatter": {}
+    }
+}

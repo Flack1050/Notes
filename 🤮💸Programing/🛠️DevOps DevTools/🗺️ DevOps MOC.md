@@ -1,0 +1,59 @@
+---
+tags: [moc, devops]
+---
+
+# 🗺️ DevOps — карта заметок
+
+Точка входа во весь раздел. Отсюда линки на всё остальное.
+
+> [!info] Визуальная карта
+> Есть версия этой карты в виде canvas со схемой и порядком изучения: [[🔎DevOps Navigation.canvas|открыть canvas]]
+
+## Контейнеризация
+- [[🐳Docker]]
+- [[🧩Docker Compose]]
+
+## Оркестрация
+- [[☸️Kubernetes]]
+- [[⛵Helm]]
+
+## Инфраструктура как код
+- [[🏗️Terraform]]
+- [[⚙️Ansible]]
+
+## CI/CD
+- [[🔄CI-CD Pipelines]]
+- [[🤵Jenkins]]
+- [[🦊GitLab CI]]
+
+## GitOps
+- [[🔁GitOps]]
+- [[🐙ArgoCD]]
+
+## Веб-сервер
+- [[🌐Nginx]]
+
+## Базовое
+- [[🌿Git Workflow]]
+- [[📘Git]]
+
+---
+
+> [!tip] Как пользоваться
+> Каждая заметка — самодостаточный конспект с командами и примерами конфигов.
+> Теги внизу каждой заметки помогут искать по темам (`#docker`, `#ansible`, `#cicd` и т.д.)
+> Открой граф (Ctrl+G) чтобы увидеть связи между темами.
+
+## Roadmap изучения (предлагаемый порядок)
+1. [[🌿Git Workflow]] — если ещё не уверенно пользуешься
+2. [[🐳Docker]] → [[🧩Docker Compose]]
+3. [[🔄CI-CD Pipelines]] (свяжи со своими репами на GitHub/GitLab)
+4. [[⚙️Ansible]] — автоматизация конфигурации серверов
+5. [[🏗️Terraform]] — provisioning инфраструктуры
+6. [[☸️Kubernetes]] — когда Compose станет мало
+7. [[⛵Helm]] — пакует k8s-манифесты в переиспользуемые чарты
+8. [[🔁GitOps]] → [[🐙ArgoCD]] — когда ручной `kubectl apply`/`helm upgrade` надоел
+
+Смотри также: [[🌐Nginx]] (reverse proxy/ingress), [[📘Git]] (внутренности git), [[🌐Networks]] (сети для DevOps).
+
+#moc #devops

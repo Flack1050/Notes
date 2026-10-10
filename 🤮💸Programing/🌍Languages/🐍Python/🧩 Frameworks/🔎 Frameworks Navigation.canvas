@@ -1,0 +1,685 @@
+{
+    "nodes": [
+        {
+            "id": "title",
+            "type": "text",
+            "text": "🧩**Python Frameworks**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "pill"
+            },
+            "x": -900,
+            "y": -700,
+            "width": 420,
+            "height": 100
+        },
+        {
+            "id": "h0",
+            "type": "text",
+            "text": "**🌐 Web**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "predefined-process"
+            },
+            "x": -1900,
+            "y": -480,
+            "width": 300,
+            "height": 90,
+            "color": "1"
+        },
+        {
+            "id": "n0_0_0",
+            "type": "text",
+            "text": "[[🌐 FastAPI]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1900,
+            "y": -320,
+            "width": 300,
+            "height": 90,
+            "color": "#00B5D8"
+        },
+        {
+            "id": "n0_0_1",
+            "type": "text",
+            "text": "[[🌐 Flask]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1900,
+            "y": -170,
+            "width": 300,
+            "height": 90,
+            "color": "#00B5D8"
+        },
+        {
+            "id": "h1",
+            "type": "text",
+            "text": "**🤖 Bots**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "predefined-process"
+            },
+            "x": -1260,
+            "y": -480,
+            "width": 640,
+            "height": 90,
+            "color": "1"
+        },
+        {
+            "id": "n1_0_0",
+            "type": "text",
+            "text": "[[⚙️ Aiogram Base]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1260,
+            "y": -320,
+            "width": 300,
+            "height": 90,
+            "color": "#FF7A59"
+        },
+        {
+            "id": "n1_0_1",
+            "type": "text",
+            "text": "[[🔄 Aiogram FSM]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1260,
+            "y": -170,
+            "width": 300,
+            "height": 90,
+            "color": "#FF7A59"
+        },
+        {
+            "id": "n1_0_2",
+            "type": "text",
+            "text": "[[🕵️ Aiogram Filters]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1260,
+            "y": -20,
+            "width": 300,
+            "height": 90,
+            "color": "#FF7A59"
+        },
+        {
+            "id": "n1_0_3",
+            "type": "text",
+            "text": "[[🛠️ Aiogram Middleware]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1260,
+            "y": 130,
+            "width": 300,
+            "height": 90,
+            "color": "#FF7A59"
+        },
+        {
+            "id": "n1_0_4",
+            "type": "text",
+            "text": "[[🏗️ Aiogram Project Architecture]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1260,
+            "y": 280,
+            "width": 300,
+            "height": 90,
+            "color": "#FF7A59"
+        },
+        {
+            "id": "n1_1_0",
+            "type": "text",
+            "text": "[[🤖 Telebot]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -920,
+            "y": -320,
+            "width": 300,
+            "height": 90,
+            "color": "#FF7A59"
+        },
+        {
+            "id": "h2",
+            "type": "text",
+            "text": "**🖥️ GUI / Desktop**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "predefined-process"
+            },
+            "x": -280,
+            "y": -480,
+            "width": 640,
+            "height": 90,
+            "color": "1"
+        },
+        {
+            "id": "n2_0_0",
+            "type": "text",
+            "text": "[[⚙️ PyQt6 Base]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -280,
+            "y": -320,
+            "width": 300,
+            "height": 90,
+            "color": "#34D399"
+        },
+        {
+            "id": "n2_0_1",
+            "type": "text",
+            "text": "[[📐 PyQt6 Layout System]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -280,
+            "y": -170,
+            "width": 300,
+            "height": 90,
+            "color": "#34D399"
+        },
+        {
+            "id": "n2_0_2",
+            "type": "text",
+            "text": "[[📡 PyQt6 Signals & Slots]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -280,
+            "y": -20,
+            "width": 300,
+            "height": 90,
+            "color": "#34D399"
+        },
+        {
+            "id": "n2_0_3",
+            "type": "text",
+            "text": "[[🧩 PyQt6 Widgets]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -280,
+            "y": 130,
+            "width": 300,
+            "height": 90,
+            "color": "#34D399"
+        },
+        {
+            "id": "n2_1_0",
+            "type": "text",
+            "text": "[[🎮 PyGame]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": 60,
+            "y": -320,
+            "width": 300,
+            "height": 90,
+            "color": "#34D399"
+        },
+        {
+            "id": "h3",
+            "type": "text",
+            "text": "**🗄️ Data**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "predefined-process"
+            },
+            "x": 700,
+            "y": -480,
+            "width": 300,
+            "height": 90,
+            "color": "1"
+        },
+        {
+            "id": "n3_0_0",
+            "type": "text",
+            "text": "[[🗄️ SQLite3]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": 700,
+            "y": -320,
+            "width": 300,
+            "height": 90,
+            "color": "#FBBF24"
+        },
+        {
+            "id": "n3_0_1",
+            "type": "text",
+            "text": "[[🧪 SQLAlchemy]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": 700,
+            "y": -170,
+            "width": 300,
+            "height": 90,
+            "color": "#FBBF24"
+        },
+        {
+            "id": "h4",
+            "type": "text",
+            "text": "**⚙️ Tools & Runtime**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "predefined-process"
+            },
+            "x": 1340,
+            "y": -480,
+            "width": 300,
+            "height": 90,
+            "color": "1"
+        },
+        {
+            "id": "n4_0_0",
+            "type": "text",
+            "text": "[[⚡ Asyncio]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": 1340,
+            "y": -320,
+            "width": 300,
+            "height": 90,
+            "color": "#A78BFA"
+        },
+        {
+            "id": "n4_0_1",
+            "type": "text",
+            "text": "[[📦 PyInstaller]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": 1340,
+            "y": -170,
+            "width": 300,
+            "height": 90,
+            "color": "#A78BFA"
+        },
+        {
+            "id": "back",
+            "type": "text",
+            "text": "[[🌍Languages/🐍Python/🔎 Python Navigation.canvas|🐍 Python Navigation]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "database"
+            },
+            "x": -900,
+            "y": -850,
+            "width": 420,
+            "height": 90,
+            "color": "6"
+        }
+    ],
+    "edges": [
+        {
+            "id": "e_title_h0",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "h0",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow"
+        },
+        {
+            "id": "e_h0_n0_0_0",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h0",
+            "fromSide": "bottom",
+            "toNode": "n0_0_0",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "#00B5D8"
+        },
+        {
+            "id": "e_n0_0_0_n0_0_1",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "n0_0_0",
+            "fromSide": "bottom",
+            "toNode": "n0_0_1",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "#00B5D8"
+        },
+        {
+            "id": "e_title_h1",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "h1",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow"
+        },
+        {
+            "id": "e_h1_n1_0_0",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h1",
+            "fromSide": "bottom",
+            "toNode": "n1_0_0",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "#FF7A59"
+        },
+        {
+            "id": "e_n1_0_0_n1_0_1",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "n1_0_0",
+            "fromSide": "bottom",
+            "toNode": "n1_0_1",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "#FF7A59"
+        },
+        {
+            "id": "e_n1_0_1_n1_0_2",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "n1_0_1",
+            "fromSide": "bottom",
+            "toNode": "n1_0_2",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "#FF7A59"
+        },
+        {
+            "id": "e_n1_0_2_n1_0_3",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "n1_0_2",
+            "fromSide": "bottom",
+            "toNode": "n1_0_3",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "#FF7A59"
+        },
+        {
+            "id": "e_n1_0_3_n1_0_4",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "n1_0_3",
+            "fromSide": "bottom",
+            "toNode": "n1_0_4",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "#FF7A59"
+        },
+        {
+            "id": "e_h1_n1_1_0",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h1",
+            "fromSide": "bottom",
+            "toNode": "n1_1_0",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "#FF7A59"
+        },
+        {
+            "id": "e_title_h2",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "h2",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow"
+        },
+        {
+            "id": "e_h2_n2_0_0",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h2",
+            "fromSide": "bottom",
+            "toNode": "n2_0_0",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "#34D399"
+        },
+        {
+            "id": "e_n2_0_0_n2_0_1",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "n2_0_0",
+            "fromSide": "bottom",
+            "toNode": "n2_0_1",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "#34D399"
+        },
+        {
+            "id": "e_n2_0_1_n2_0_2",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "n2_0_1",
+            "fromSide": "bottom",
+            "toNode": "n2_0_2",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "#34D399"
+        },
+        {
+            "id": "e_n2_0_2_n2_0_3",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "n2_0_2",
+            "fromSide": "bottom",
+            "toNode": "n2_0_3",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "#34D399"
+        },
+        {
+            "id": "e_h2_n2_1_0",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h2",
+            "fromSide": "bottom",
+            "toNode": "n2_1_0",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "#34D399"
+        },
+        {
+            "id": "e_title_h3",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "h3",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow"
+        },
+        {
+            "id": "e_h3_n3_0_0",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h3",
+            "fromSide": "bottom",
+            "toNode": "n3_0_0",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "#FBBF24"
+        },
+        {
+            "id": "e_n3_0_0_n3_0_1",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "n3_0_0",
+            "fromSide": "bottom",
+            "toNode": "n3_0_1",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "#FBBF24"
+        },
+        {
+            "id": "e_title_h4",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "h4",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow"
+        },
+        {
+            "id": "e_h4_n4_0_0",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h4",
+            "fromSide": "bottom",
+            "toNode": "n4_0_0",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "#A78BFA"
+        },
+        {
+            "id": "e_n4_0_0_n4_0_1",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "n4_0_0",
+            "fromSide": "bottom",
+            "toNode": "n4_0_1",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "#A78BFA"
+        },
+        {
+            "id": "e_back_title",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "back",
+            "fromSide": "bottom",
+            "toNode": "title",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "6"
+        }
+    ],
+    "metadata": {
+        "version": "1.0-1.0",
+        "frontmatter": {}
+    }
+}
