@@ -4,7 +4,10 @@ tags: [git, devops]
 
 # 🌿 Git Workflow
 
-Связано: [[🔄CI-CD Pipelines]]
+Связано: [[🔄CI-CD Pipelines]] · [[📘Git]]
+
+> [!note] Внутренности Git
+> Про объектную модель, конфиги, remotes и submodules — в [[📘Git]]. Здесь — только ветвление и командная работа.
 
 ## Ветвление — популярные модели
 

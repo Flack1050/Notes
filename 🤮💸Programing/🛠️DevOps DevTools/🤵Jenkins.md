@@ -33,7 +33,7 @@ docker run -d --name jenkins \
 docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 ```
 
-> [!hint]
+> [!note]
 > Монтирование `docker.sock` даёт Jenkins возможность запускать docker-команды прямо из pipeline (docker-in-docker подход), но открывает контейнеру доступ к докер-демону хоста — учитывай это с точки зрения безопасности.
 
 ## Declarative Jenkinsfile — пример

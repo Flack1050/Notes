@@ -1,0 +1,139 @@
+{
+    "nodes": [
+        {
+            "id": "title",
+            "type": "text",
+            "text": "🧠**Внутреннее устройство Linux**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "pill"
+            },
+            "x": -260,
+            "y": -380,
+            "width": 520,
+            "height": 100
+        },
+        {
+            "id": "n1",
+            "type": "text",
+            "text": "[[🧠Архитектура Linux]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -700,
+            "y": -180,
+            "width": 330,
+            "height": 90,
+            "color": "5"
+        },
+        {
+            "id": "n2",
+            "type": "text",
+            "text": "[[🥾Загрузка и init]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -280,
+            "y": -180,
+            "width": 330,
+            "height": 90,
+            "color": "2"
+        },
+        {
+            "id": "n3",
+            "type": "text",
+            "text": "[[⚙️Процессы, память и файловая система]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": 140,
+            "y": -180,
+            "width": 360,
+            "height": 90,
+            "color": "4"
+        },
+        {
+            "id": "back",
+            "type": "text",
+            "text": "[[🔎Linux Navigation.canvas|🐧 Linux Navigation]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "database"
+            },
+            "x": 540,
+            "y": -380,
+            "width": 300,
+            "height": 90,
+            "color": "6"
+        }
+    ],
+    "edges": [
+        {
+            "id": "e_t_n1",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "n1",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "5"
+        },
+        {
+            "id": "e_n1_n2",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "n1",
+            "fromSide": "right",
+            "toNode": "n2",
+            "toSide": "left",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "1"
+        },
+        {
+            "id": "e_n2_n3",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "n2",
+            "fromSide": "right",
+            "toNode": "n3",
+            "toSide": "left",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "1"
+        },
+        {
+            "id": "e_t_back",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "right",
+            "toNode": "back",
+            "toSide": "left",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "6"
+        }
+    ],
+    "metadata": {
+        "version": "1.0-1.0",
+        "frontmatter": {}
+    }
+}

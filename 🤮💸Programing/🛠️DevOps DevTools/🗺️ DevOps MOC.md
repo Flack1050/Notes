@@ -24,9 +24,18 @@ tags: [moc, devops]
 ## CI/CD
 - [[🔄CI-CD Pipelines]]
 - [[🤵Jenkins]]
+- [[🦊GitLab CI]]
+
+## GitOps
+- [[🔁GitOps]]
+- [[🐙ArgoCD]]
+
+## Веб-сервер
+- [[🌐Nginx]]
 
 ## Базовое
 - [[🌿Git Workflow]]
+- [[📘Git]]
 
 ---
 
@@ -43,5 +52,8 @@ tags: [moc, devops]
 5. [[🏗️Terraform]] — provisioning инфраструктуры
 6. [[☸️Kubernetes]] — когда Compose станет мало
 7. [[⛵Helm]] — пакует k8s-манифесты в переиспользуемые чарты
+8. [[🔁GitOps]] → [[🐙ArgoCD]] — когда ручной `kubectl apply`/`helm upgrade` надоел
+
+Смотри также: [[🌐Nginx]] (reverse proxy/ingress), [[📘Git]] (внутренности git), [[🌐Networks]] (сети для DevOps).
 
 #moc #devops

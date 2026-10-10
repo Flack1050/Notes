@@ -1,472 +1,570 @@
 {
-	"nodes":[
-		{
-			"id":"title",
-			"type":"text",
-			"text":"🐍**Python**",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":-700,
-			"y":-700,
-			"width":380,
-			"height":100
-		},
-		{
-			"id":"h_code",
-			"type":"text",
-			"text":"⚙️ **Code**",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
-			"x":-1500,
-			"y":-480,
-			"width":320,
-			"height":90,
-			"color":"1"
-		},
-		{
-			"id":"h_code_0",
-			"type":"text",
-			"text":"[[Функции]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-1500,
-			"y":-320,
-			"width":320,
-			"height":90,
-			"color":"3"
-		},
-		{
-			"id":"h_code_1",
-			"type":"text",
-			"text":"[[Функции строк]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-1500,
-			"y":-170,
-			"width":320,
-			"height":90,
-			"color":"3"
-		},
-		{
-			"id":"h_code_2",
-			"type":"text",
-			"text":"[[Списки и их функции]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-1500,
-			"y":-20,
-			"width":320,
-			"height":90,
-			"color":"3"
-		},
-		{
-			"id":"h_code_3",
-			"type":"text",
-			"text":"[[Словари]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-1500,
-			"y":130,
-			"width":320,
-			"height":90,
-			"color":"3"
-		},
-		{
-			"id":"h_code_4",
-			"type":"text",
-			"text":"[[Матрица]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-1500,
-			"y":280,
-			"width":320,
-			"height":90,
-			"color":"3"
-		},
-		{
-			"id":"h_code_5",
-			"type":"text",
-			"text":"[[Модули]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-1500,
-			"y":430,
-			"width":320,
-			"height":90,
-			"color":"3"
-		},
-		{
-			"id":"h_code_6",
-			"type":"text",
-			"text":"[[Исключения]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-1500,
-			"y":580,
-			"width":320,
-			"height":90,
-			"color":"3"
-		},
-		{
-			"id":"h_code_7",
-			"type":"text",
-			"text":"[[Декоратор функций]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-1500,
-			"y":730,
-			"width":320,
-			"height":90,
-			"color":"3"
-		},
-		{
-			"id":"h_file",
-			"type":"text",
-			"text":"📁 **File**",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
-			"x":-1130,
-			"y":-480,
-			"width":320,
-			"height":90,
-			"color":"1"
-		},
-		{
-			"id":"h_file_0",
-			"type":"text",
-			"text":"[[Работа с файлами]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-1130,
-			"y":-320,
-			"width":320,
-			"height":90,
-			"color":"3"
-		},
-		{
-			"id":"h_file_1",
-			"type":"text",
-			"text":"[[With... As]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-1130,
-			"y":-170,
-			"width":320,
-			"height":90,
-			"color":"3"
-		},
-		{
-			"id":"h_oop",
-			"type":"text",
-			"text":"🧮 **OOP**",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
-			"x":-760,
-			"y":-480,
-			"width":320,
-			"height":90,
-			"color":"1"
-		},
-		{
-			"id":"h_oop_0",
-			"type":"text",
-			"text":"[[Создание класса и объектов]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-760,
-			"y":-320,
-			"width":320,
-			"height":90,
-			"color":"3"
-		},
-		{
-			"id":"h_oop_1",
-			"type":"text",
-			"text":"[[Наследование, полиморфизм и инкапсуляция]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-760,
-			"y":-170,
-			"width":320,
-			"height":90,
-			"color":"3"
-		},
-		{
-			"id":"h_oop_2",
-			"type":"text",
-			"text":"[[Конструктор]]",
-			"styleAttributes":{"textAlign":"center","shape":"parallelogram"},
-			"x":-760,
-			"y":-20,
-			"width":320,
-			"height":90,
-			"color":"3"
-		},
-		{
-			"id":"h_fw",
-			"type":"text",
-			"text":"🧩 **Frameworks**",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
-			"x":-390,
-			"y":-480,
-			"width":320,
-			"height":90,
-			"color":"1"
-		},
-		{
-			"id":"n_fw_portal",
-			"type":"text",
-			"text":"[[🔎 Frameworks Navigation.canvas|🧩 Frameworks Navigation]]",
-			"styleAttributes":{"textAlign":"center","shape":"database"},
-			"x":-390,
-			"y":-320,
-			"width":320,
-			"height":100,
-			"color":"6"
-		},
-		{
-			"id":"back",
-			"type":"text",
-			"text":"[[🌍Languages/🔎Languages Navigation.canvas|🌍 Languages Navigation]]",
-			"styleAttributes":{"textAlign":"center","shape":"database"},
-			"x":-700,
-			"y":-850,
-			"width":380,
-			"height":90,
-			"color":"6"
-		}
-	],
-	"edges":[
-		{
-			"id":"e_title_h_code",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"title",
-			"fromSide":"bottom",
-			"toNode":"h_code",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow"
-		},
-		{
-			"id":"e_h_code_h_code_0",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"h_code",
-			"fromSide":"bottom",
-			"toNode":"h_code_0",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"3"
-		},
-		{
-			"id":"e_h_code_0_h_code_1",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"h_code_0",
-			"fromSide":"bottom",
-			"toNode":"h_code_1",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"3"
-		},
-		{
-			"id":"e_h_code_1_h_code_2",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"h_code_1",
-			"fromSide":"bottom",
-			"toNode":"h_code_2",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"3"
-		},
-		{
-			"id":"e_h_code_2_h_code_3",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"h_code_2",
-			"fromSide":"bottom",
-			"toNode":"h_code_3",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"3"
-		},
-		{
-			"id":"e_h_code_3_h_code_4",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"h_code_3",
-			"fromSide":"bottom",
-			"toNode":"h_code_4",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"3"
-		},
-		{
-			"id":"e_h_code_4_h_code_5",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"h_code_4",
-			"fromSide":"bottom",
-			"toNode":"h_code_5",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"3"
-		},
-		{
-			"id":"e_h_code_5_h_code_6",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"h_code_5",
-			"fromSide":"bottom",
-			"toNode":"h_code_6",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"3"
-		},
-		{
-			"id":"e_h_code_6_h_code_7",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"h_code_6",
-			"fromSide":"bottom",
-			"toNode":"h_code_7",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"3"
-		},
-		{
-			"id":"e_title_h_file",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"title",
-			"fromSide":"bottom",
-			"toNode":"h_file",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow"
-		},
-		{
-			"id":"e_h_file_h_file_0",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"h_file",
-			"fromSide":"bottom",
-			"toNode":"h_file_0",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"3"
-		},
-		{
-			"id":"e_h_file_0_h_file_1",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"h_file_0",
-			"fromSide":"bottom",
-			"toNode":"h_file_1",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"3"
-		},
-		{
-			"id":"e_title_h_oop",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"title",
-			"fromSide":"bottom",
-			"toNode":"h_oop",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow"
-		},
-		{
-			"id":"e_h_oop_h_oop_0",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"h_oop",
-			"fromSide":"bottom",
-			"toNode":"h_oop_0",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"3"
-		},
-		{
-			"id":"e_h_oop_0_h_oop_1",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"h_oop_0",
-			"fromSide":"bottom",
-			"toNode":"h_oop_1",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"3"
-		},
-		{
-			"id":"e_h_oop_1_h_oop_2",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"h_oop_1",
-			"fromSide":"bottom",
-			"toNode":"h_oop_2",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"3"
-		},
-		{
-			"id":"e_title_fw",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"title",
-			"fromSide":"bottom",
-			"toNode":"h_fw",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow"
-		},
-		{
-			"id":"e_fw_portal",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"h_fw",
-			"fromSide":"bottom",
-			"toNode":"n_fw_portal",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"6"
-		},
-		{
-			"id":"e_back_title",
-			"styleAttributes":{"pathfindingMethod":"direct"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"back",
-			"fromSide":"bottom",
-			"toNode":"title",
-			"toSide":"top",
-			"fromEnd":"none",
-			"toEnd":"arrow",
-			"color":"6"
-		}
-	],
-	"metadata":{
-		"version":"1.0-1.0",
-		"frontmatter":{}
-	}
+    "nodes": [
+        {
+            "id": "title",
+            "type": "text",
+            "text": "🐍**Python**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "pill"
+            },
+            "x": -700,
+            "y": -700,
+            "width": 380,
+            "height": 100
+        },
+        {
+            "id": "h_code",
+            "type": "text",
+            "text": "⚙️ **Code**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "predefined-process"
+            },
+            "x": -1500,
+            "y": -480,
+            "width": 320,
+            "height": 90,
+            "color": "1"
+        },
+        {
+            "id": "h_code_0",
+            "type": "text",
+            "text": "[[Функции]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1500,
+            "y": -320,
+            "width": 320,
+            "height": 90,
+            "color": "3"
+        },
+        {
+            "id": "h_code_1",
+            "type": "text",
+            "text": "[[Функции строк]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1500,
+            "y": -170,
+            "width": 320,
+            "height": 90,
+            "color": "3"
+        },
+        {
+            "id": "h_code_2",
+            "type": "text",
+            "text": "[[Списки и их функции]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1500,
+            "y": -20,
+            "width": 320,
+            "height": 90,
+            "color": "3"
+        },
+        {
+            "id": "h_code_3",
+            "type": "text",
+            "text": "[[Словари]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1500,
+            "y": 130,
+            "width": 320,
+            "height": 90,
+            "color": "3"
+        },
+        {
+            "id": "h_code_4",
+            "type": "text",
+            "text": "[[Матрица]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1500,
+            "y": 280,
+            "width": 320,
+            "height": 90,
+            "color": "3"
+        },
+        {
+            "id": "h_code_5",
+            "type": "text",
+            "text": "[[Модули]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1500,
+            "y": 430,
+            "width": 320,
+            "height": 90,
+            "color": "3"
+        },
+        {
+            "id": "h_code_6",
+            "type": "text",
+            "text": "[[Исключения]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1500,
+            "y": 580,
+            "width": 320,
+            "height": 90,
+            "color": "3"
+        },
+        {
+            "id": "h_code_7",
+            "type": "text",
+            "text": "[[Декоратор функций]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1500,
+            "y": 730,
+            "width": 320,
+            "height": 90,
+            "color": "3"
+        },
+        {
+            "id": "h_file",
+            "type": "text",
+            "text": "📁 **File**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "predefined-process"
+            },
+            "x": -1130,
+            "y": -480,
+            "width": 320,
+            "height": 90,
+            "color": "1"
+        },
+        {
+            "id": "h_file_0",
+            "type": "text",
+            "text": "[[Работа с файлами]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1130,
+            "y": -320,
+            "width": 320,
+            "height": 90,
+            "color": "3"
+        },
+        {
+            "id": "h_file_1",
+            "type": "text",
+            "text": "[[With... As]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -1130,
+            "y": -170,
+            "width": 320,
+            "height": 90,
+            "color": "3"
+        },
+        {
+            "id": "h_oop",
+            "type": "text",
+            "text": "🧮 **OOP**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "predefined-process"
+            },
+            "x": -760,
+            "y": -480,
+            "width": 320,
+            "height": 90,
+            "color": "1"
+        },
+        {
+            "id": "h_oop_0",
+            "type": "text",
+            "text": "[[Создание класса и объектов]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -760,
+            "y": -320,
+            "width": 320,
+            "height": 90,
+            "color": "3"
+        },
+        {
+            "id": "h_oop_1",
+            "type": "text",
+            "text": "[[Наследование, полиморфизм и инкапсуляция]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -760,
+            "y": -170,
+            "width": 320,
+            "height": 90,
+            "color": "3"
+        },
+        {
+            "id": "h_oop_2",
+            "type": "text",
+            "text": "[[Конструктор]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "parallelogram"
+            },
+            "x": -760,
+            "y": -20,
+            "width": 320,
+            "height": 90,
+            "color": "3"
+        },
+        {
+            "id": "h_fw",
+            "type": "text",
+            "text": "🧩 **Frameworks**",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "predefined-process"
+            },
+            "x": -390,
+            "y": -480,
+            "width": 320,
+            "height": 90,
+            "color": "1"
+        },
+        {
+            "id": "n_fw_portal",
+            "type": "text",
+            "text": "[[🔎 Frameworks Navigation.canvas|🧩 Frameworks Navigation]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "database"
+            },
+            "x": -390,
+            "y": -320,
+            "width": 320,
+            "height": 100,
+            "color": "6"
+        },
+        {
+            "id": "back",
+            "type": "text",
+            "text": "[[🌍Languages/🔎Languages Navigation.canvas|🌍 Languages Navigation]]",
+            "styleAttributes": {
+                "textAlign": "center",
+                "shape": "database"
+            },
+            "x": -700,
+            "y": -850,
+            "width": 380,
+            "height": 90,
+            "color": "6"
+        }
+    ],
+    "edges": [
+        {
+            "id": "e_title_h_code",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "h_code",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow"
+        },
+        {
+            "id": "e_h_code_h_code_0",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_code",
+            "fromSide": "bottom",
+            "toNode": "h_code_0",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "3"
+        },
+        {
+            "id": "e_h_code_0_h_code_1",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_code_0",
+            "fromSide": "bottom",
+            "toNode": "h_code_1",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "3"
+        },
+        {
+            "id": "e_h_code_1_h_code_2",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_code_1",
+            "fromSide": "bottom",
+            "toNode": "h_code_2",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "3"
+        },
+        {
+            "id": "e_h_code_2_h_code_3",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_code_2",
+            "fromSide": "bottom",
+            "toNode": "h_code_3",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "3"
+        },
+        {
+            "id": "e_h_code_3_h_code_4",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_code_3",
+            "fromSide": "bottom",
+            "toNode": "h_code_4",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "3"
+        },
+        {
+            "id": "e_h_code_4_h_code_5",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_code_4",
+            "fromSide": "bottom",
+            "toNode": "h_code_5",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "3"
+        },
+        {
+            "id": "e_h_code_5_h_code_6",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_code_5",
+            "fromSide": "bottom",
+            "toNode": "h_code_6",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "3"
+        },
+        {
+            "id": "e_h_code_6_h_code_7",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_code_6",
+            "fromSide": "bottom",
+            "toNode": "h_code_7",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "3"
+        },
+        {
+            "id": "e_title_h_file",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "h_file",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow"
+        },
+        {
+            "id": "e_h_file_h_file_0",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_file",
+            "fromSide": "bottom",
+            "toNode": "h_file_0",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "3"
+        },
+        {
+            "id": "e_h_file_0_h_file_1",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_file_0",
+            "fromSide": "bottom",
+            "toNode": "h_file_1",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "3"
+        },
+        {
+            "id": "e_title_h_oop",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "h_oop",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow"
+        },
+        {
+            "id": "e_h_oop_h_oop_0",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_oop",
+            "fromSide": "bottom",
+            "toNode": "h_oop_0",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "3"
+        },
+        {
+            "id": "e_h_oop_0_h_oop_1",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_oop_0",
+            "fromSide": "bottom",
+            "toNode": "h_oop_1",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "3"
+        },
+        {
+            "id": "e_h_oop_1_h_oop_2",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_oop_1",
+            "fromSide": "bottom",
+            "toNode": "h_oop_2",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "3"
+        },
+        {
+            "id": "e_title_fw",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "title",
+            "fromSide": "bottom",
+            "toNode": "h_fw",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow"
+        },
+        {
+            "id": "e_fw_portal",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "h_fw",
+            "fromSide": "bottom",
+            "toNode": "n_fw_portal",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "6"
+        },
+        {
+            "id": "e_back_title",
+            "styleAttributes": {
+                "pathfindingMethod": "direct"
+            },
+            "toFloating": false,
+            "fromFloating": false,
+            "fromNode": "back",
+            "fromSide": "bottom",
+            "toNode": "title",
+            "toSide": "top",
+            "fromEnd": "none",
+            "toEnd": "arrow",
+            "color": "6"
+        }
+    ],
+    "metadata": {
+        "version": "1.0-1.0",
+        "frontmatter": {}
+    }
 }
